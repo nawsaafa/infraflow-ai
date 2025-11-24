@@ -1,0 +1,282 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:16-alpine
+    container_name: infraflow-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: infraflow_db
+      POSTGRES_USER: infraflow_user
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-infraflow_dev_password}
+      PGDATA: /var/lib/postgresql/data/pgdata
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init-scripts:/docker-entrypoint-initdb.d
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U infraflow_user -d infraflow_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - infraflow-network
+
+  # Redis Cache & Queue
+  redis:
+    image: redis:7-alpine
+    container_name: infraflow-redis
+    restart: unless-stopped
+    command: redis-server --requirepass ${REDIS_PASSWORD:-infraflow_redis_password} --appendonly yes
+    volumes:
+      - redis_data:/data
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "--raw", "incr", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - infraflow-network
+
+  # FastAPI Backend
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+      target: ${BUILD_TARGET:-development}
+    container_name: infraflow-backend
+    restart: unless-stopped
+    environment:
+      # Database
+      DATABASE_URL: postgresql://infraflow_user:${POSTGRES_PASSWORD:-infraflow_dev_password}@postgres:5432/infraflow_db
+
+      # Redis
+      REDIS_URL: redis://:${REDIS_PASSWORD:-infraflow_redis_password}@redis:6379/0
+      QUEUE_BULL_REDIS_HOST: redis
+      QUEUE_BULL_REDIS_PORT: 6379
+      REDIS_AUTH_PASSWORD: ${REDIS_PASSWORD:-infraflow_redis_password}
+
+      # Supabase
+      SUPABASE_URL: ${SUPABASE_URL}
+      SUPABASE_PUBLIC_ANON: ${SUPABASE_PUBLIC_ANON}
+      SUPABASE_SERVICE_KEY: ${SUPABASE_SERVICE_KEY}
+
+      # AI/ML Services
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY}
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      COHERE_API_KEY: ${COHERE_API_KEY}
+      AZURE_DOCUMENT_INTELLIGENCE_ENDPOINT: ${AZURE_DOCUMENT_INTELLIGENCE_ENDPOINT}
+      AZURE_DOCUMENT_INTELLIGENCE_KEY: ${AZURE_DOCUMENT_INTELLIGENCE_KEY}
+
+      # Vector Database
+      PINECONE_API_KEY: ${PINECONE_API_KEY}
+      PINECONE_ENVIRONMENT: ${PINECONE_ENVIRONMENT}
+      WEAVIATE_URL: ${WEAVIATE_URL:-http://weaviate:8080}
+
+      # File Storage
+      AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID}
+      AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY}
+      AWS_S3_BUCKET: ${AWS_S3_BUCKET}
+      AWS_REGION: ${AWS_REGION:-us-east-1}
+      CLOUDFLARE_ACCOUNT_ID: ${CLOUDFLARE_ACCOUNT_ID}
+      CLOUDFLARE_R2_ACCESS_KEY: ${CLOUDFLARE_R2_ACCESS_KEY}
+      CLOUDFLARE_R2_SECRET_KEY: ${CLOUDFLARE_R2_SECRET_KEY}
+
+      # Security
+      JWT_SECRET: ${JWT_SECRET}
+      RATE_LIMIT_SECRET: ${RATE_LIMIT_SECRET}
+      WEBHOOK_SECRET: ${WEBHOOK_SECRET}
+
+      # Application
+      ENVIRONMENT: ${ENVIRONMENT:-development}
+      LOG_LEVEL: ${LOG_LEVEL:-info}
+      CORS_ORIGIN: ${CORS_ORIGIN:-http://localhost:3000}
+      API_VERSION: v1
+      MAX_UPLOAD_SIZE: ${MAX_UPLOAD_SIZE:-100}
+
+      # Integration
+      N8N_API_URL: ${N8N_API_URL}
+      N8N_API_KEY: ${N8N_API_KEY}
+      CHATWOOT_BASE_URL: ${CHATWOOT_BASE_URL}
+      CHATWOOT_API_KEY: ${CHATWOOT_API_KEY}
+
+    volumes:
+      - ./backend:/app
+      - backend_uploads:/app/uploads
+      - backend_temp:/app/temp
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - infraflow-network
+
+  # Next.js Frontend
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      target: ${BUILD_TARGET:-development}
+      args:
+        NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-http://localhost:8000}
+        NEXT_PUBLIC_SUPABASE_URL: ${SUPABASE_URL}
+        NEXT_PUBLIC_SUPABASE_ANON_KEY: ${SUPABASE_PUBLIC_ANON}
+    container_name: infraflow-frontend
+    restart: unless-stopped
+    environment:
+      # Backend API
+      NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-http://localhost:8000}
+
+      # Supabase (Public)
+      NEXT_PUBLIC_SUPABASE_URL: ${SUPABASE_URL}
+      NEXT_PUBLIC_SUPABASE_ANON_KEY: ${SUPABASE_PUBLIC_ANON}
+
+      # Analytics
+      NEXT_PUBLIC_POSTHOG_KEY: ${NEXT_PUBLIC_POSTHOG_KEY}
+      NEXT_PUBLIC_POSTHOG_HOST: ${NEXT_PUBLIC_POSTHOG_HOST}
+
+      # Feature Flags
+      NEXT_PUBLIC_ENVIRONMENT: ${ENVIRONMENT:-development}
+
+      NODE_ENV: ${NODE_ENV:-development}
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+      - /app/.next
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - infraflow-network
+
+  # Optional: Weaviate Vector Database (alternative to Pinecone)
+  weaviate:
+    image: semitechnologies/weaviate:1.24.0
+    container_name: infraflow-weaviate
+    restart: unless-stopped
+    profiles:
+      - vector-db
+    environment:
+      QUERY_DEFAULTS_LIMIT: 25
+      AUTHENTICATION_ANONYMOUS_ACCESS_ENABLED: 'true'
+      PERSISTENCE_DATA_PATH: '/var/lib/weaviate'
+      DEFAULT_VECTORIZER_MODULE: 'none'
+      ENABLE_MODULES: 'text2vec-openai,text2vec-cohere'
+      CLUSTER_HOSTNAME: 'weaviate'
+    volumes:
+      - weaviate_data:/var/lib/weaviate
+    ports:
+      - "8080:8080"
+    networks:
+      - infraflow-network
+
+  # Optional: n8n Workflow Automation
+  n8n:
+    image: n8nio/n8n:latest
+    container_name: infraflow-n8n
+    restart: unless-stopped
+    profiles:
+      - automation
+    environment:
+      N8N_BASIC_AUTH_ACTIVE: 'true'
+      N8N_BASIC_AUTH_USER: ${N8N_BASIC_AUTH_USER:-admin}
+      N8N_BASIC_AUTH_PASSWORD: ${N8N_BASIC_AUTH_PASSWORD:-admin}
+      N8N_HOST: ${N8N_HOST:-localhost}
+      N8N_PORT: 5678
+      N8N_PROTOCOL: http
+      WEBHOOK_URL: ${N8N_WEBHOOK_URL:-http://localhost:5678/}
+      GENERIC_TIMEZONE: ${TIMEZONE:-UTC}
+      N8N_ENCRYPTION_KEY: ${N8N_ENCRYPTION_KEY}
+      N8N_USER_MANAGEMENT_JWT_SECRET: ${N8N_USER_MANAGEMENT_JWT_SECRET}
+      DB_TYPE: postgresdb
+      DB_POSTGRESDB_HOST: postgres
+      DB_POSTGRESDB_PORT: 5432
+      DB_POSTGRESDB_DATABASE: n8n_db
+      DB_POSTGRESDB_USER: infraflow_user
+      DB_POSTGRESDB_PASSWORD: ${POSTGRES_PASSWORD:-infraflow_dev_password}
+    volumes:
+      - n8n_data:/home/node/.n8n
+    ports:
+      - "5678:5678"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - infraflow-network
+
+  # Optional: pgAdmin for Database Management
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: infraflow-pgadmin
+    restart: unless-stopped
+    profiles:
+      - dev-tools
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_EMAIL:-admin@infraflow.ai}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_PASSWORD:-admin}
+      PGADMIN_CONFIG_SERVER_MODE: 'False'
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+    ports:
+      - "5050:80"
+    depends_on:
+      - postgres
+    networks:
+      - infraflow-network
+
+  # Optional: Redis Commander for Redis Management
+  redis-commander:
+    image: rediscommander/redis-commander:latest
+    container_name: infraflow-redis-commander
+    restart: unless-stopped
+    profiles:
+      - dev-tools
+    environment:
+      REDIS_HOSTS: local:redis:6379:0:${REDIS_PASSWORD:-infraflow_redis_password}
+    ports:
+      - "8081:8081"
+    depends_on:
+      - redis
+    networks:
+      - infraflow-network
+
+volumes:
+  postgres_data:
+    driver: local
+  redis_data:
+    driver: local
+  weaviate_data:
+    driver: local
+  n8n_data:
+    driver: local
+  pgadmin_data:
+    driver: local
+  backend_uploads:
+    driver: local
+  backend_temp:
+    driver: local
+
+networks:
+  infraflow-network:
+    driver: bridge
+    name: infraflow-network

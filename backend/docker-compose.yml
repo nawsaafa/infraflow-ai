@@ -1,0 +1,74 @@
+version: '3.8'
+
+services:
+  # FastAPI Backend
+  backend:
+    build: .
+    container_name: infraflow-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - ENV=development
+      - DATABASE_URL=postgresql://infraflow:infraflow@postgres:5432/infraflow
+      - REDIS_URL=redis://redis:6379/0
+    env_file:
+      - .env
+    depends_on:
+      - postgres
+      - redis
+    volumes:
+      - ./:/app
+    restart: unless-stopped
+    networks:
+      - infraflow-network
+
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15-alpine
+    container_name: infraflow-postgres
+    environment:
+      - POSTGRES_USER=infraflow
+      - POSTGRES_PASSWORD=infraflow
+      - POSTGRES_DB=infraflow
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    restart: unless-stopped
+    networks:
+      - infraflow-network
+
+  # Redis Cache
+  redis:
+    image: redis:7-alpine
+    container_name: infraflow-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    restart: unless-stopped
+    networks:
+      - infraflow-network
+
+  # pgAdmin (optional - for database management)
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: infraflow-pgadmin
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@infraflow.ai
+      - PGADMIN_DEFAULT_PASSWORD=admin
+    ports:
+      - "5050:80"
+    depends_on:
+      - postgres
+    restart: unless-stopped
+    networks:
+      - infraflow-network
+
+volumes:
+  postgres-data:
+  redis-data:
+
+networks:
+  infraflow-network:
+    driver: bridge

@@ -1,0 +1,260 @@
+InfraFlow AI - Frontend Project Structure
+==========================================
+
+infraflow-ai/
+│
+├── Configuration Files
+│   ├── next.config.ts              # Next.js configuration
+│   ├── tsconfig.json               # TypeScript configuration
+│   ├── tailwind.config.ts          # Tailwind CSS theme & colors
+│   ├── postcss.config.mjs          # PostCSS with Tailwind v4
+│   ├── package.json                # Dependencies & scripts
+│   └── .env.local.example          # Environment variables template
+│
+├── Documentation
+│   ├── README.md                   # Development guide
+│   ├── IMPLEMENTATION_NOTES.md     # Technical implementation details
+│   ├── FRONTEND_DELIVERY.md        # Complete delivery document
+│   └── PROJECT_STRUCTURE.txt       # This file
+│
+├── Source Code (src/)
+│   │
+│   ├── app/                        # Next.js App Router
+│   │   │
+│   │   ├── (marketing)/            # Marketing pages group
+│   │   │   └── page.tsx           # Landing page (/)
+│   │   │
+│   │   ├── dashboard/              # Dashboard pages group
+│   │   │   ├── layout.tsx         # Dashboard layout with sidebar
+│   │   │   ├── page.tsx           # Portfolio overview (/dashboard)
+│   │   │   │
+│   │   │   ├── projects/
+│   │   │   │   ├── page.tsx       # Projects list
+│   │   │   │   └── [id]/
+│   │   │   │       └── page.tsx   # Project detail (dynamic route)
+│   │   │   │
+│   │   │   ├── documents/
+│   │   │   │   └── page.tsx       # Document processing center
+│   │   │   │
+│   │   │   ├── analytics/
+│   │   │   │   └── page.tsx       # Portfolio analytics
+│   │   │   │
+│   │   │   ├── compliance/
+│   │   │   │   └── page.tsx       # Compliance monitoring
+│   │   │   │
+│   │   │   ├── models/
+│   │   │   │   └── page.tsx       # Financial models library
+│   │   │   │
+│   │   │   ├── reports/
+│   │   │   │   └── page.tsx       # Generated reports
+│   │   │   │
+│   │   │   └── settings/
+│   │   │       └── page.tsx       # Platform settings
+│   │   │
+│   │   ├── layout.tsx              # Root layout
+│   │   └── globals.css             # Global styles & CSS variables
+│   │
+│   ├── components/                 # React components
+│   │   │
+│   │   ├── ui/                    # Shadcn/ui components
+│   │   │   ├── button.tsx         # Button with variants
+│   │   │   └── card.tsx           # Card components
+│   │   │
+│   │   ├── layout/                # Layout components
+│   │   │   └── sidebar.tsx        # Dashboard sidebar navigation
+│   │   │
+│   │   └── dashboard/             # Dashboard-specific components
+│   │       └── file-upload.tsx    # File upload with drag & drop
+│   │
+│   ├── lib/                       # Utility libraries
+│   │   ├── api.ts                 # API client for backend
+│   │   └── utils.ts               # Utility functions (cn, etc.)
+│   │
+│   └── types/                     # TypeScript type definitions
+│       └── index.ts               # Project, Document, etc.
+│
+└── Build Output (.next/)          # Generated (not in Git)
+    └── Production build artifacts
+
+
+Route Map
+=========
+
+Landing & Marketing
+-------------------
+/                                   Landing page with hero & features
+
+Dashboard Pages
+---------------
+/dashboard                          Portfolio overview with metrics
+/dashboard/projects                 Project list & search
+/dashboard/projects/[id]            Project workspace (tabbed interface)
+/dashboard/documents                Document processing center
+/dashboard/analytics                Portfolio analytics & charts
+/dashboard/compliance               Compliance monitoring & reports
+/dashboard/models                   Financial models library
+/dashboard/reports                  Generated reports & memos
+/dashboard/settings                 Platform settings & API config
+
+
+Component Architecture
+======================
+
+UI Components (Shadcn/ui)
+--------------------------
+- Button: Full variant system (default, outline, ghost, link, etc.)
+- Card: Header, Content, Footer, Title, Description
+
+Layout Components
+-----------------
+- Sidebar: Navigation with active route highlighting
+
+Dashboard Components
+--------------------
+- FileUpload: Drag & drop, multi-file, progress tracking
+
+
+API Client Structure
+====================
+
+projectApi
+----------
+- getAll()                          GET /api/projects
+- getById(id)                       GET /api/projects/:id
+- create(data)                      POST /api/projects/create
+- analyze(id)                       GET /api/projects/:id/analyze
+
+documentApi
+-----------
+- upload(projectId, files)          POST /api/documents/upload
+- getByProject(projectId)           GET /api/documents?project_id=:id
+
+analyticsApi
+------------
+- getPortfolio()                    GET /api/analytics/portfolio
+- getRiskMetrics(projectId)         GET /api/analytics/risk/:id
+
+complianceApi
+-------------
+- check(projectId)                  POST /api/compliance/check/:id
+- getReports(projectId)             GET /api/compliance/reports/:id
+
+
+Type Definitions
+================
+
+Project
+- id, name, sponsor, country, sector
+- total_value, dfi_partners, status
+- risk_score, created_at, updated_at
+
+Document
+- id, project_id, name, type, url
+- processed, extracted_data, embeddings_id
+
+FinancialModel
+- id, project_id, model_type
+- assumptions, outputs, scenarios
+
+ComplianceCheck
+- id, project_id, standard, status
+- issues, recommendations, checked_at
+
+RiskMetric
+- category, score, description, mitigation
+
+PortfolioAnalytics
+- total_projects, total_value
+- average_risk_score, distributions
+
+
+Technology Stack
+================
+
+Framework
+---------
+Next.js 16.0.3 (App Router, Turbopack)
+React 19.2.0
+TypeScript 5.9.3 (strict mode)
+
+Styling
+-------
+Tailwind CSS 4.1.17
+@tailwindcss/postcss 4.1.17
+tailwindcss-animate 1.0.7
+
+UI Components
+-------------
+Shadcn/ui (custom implementation)
+Radix UI (primitives)
+class-variance-authority (CVA)
+Lucide React (icons)
+
+Charts
+------
+Tremor.so 3.18.7
+Recharts 3.5.0
+
+Authentication (Optional)
+-------------------------
+Clerk 6.35.4
+
+
+Build Output
+============
+
+Static Pages (○)
+----------------
+1. / (Landing)
+2. /dashboard (Overview)
+3. /dashboard/analytics
+4. /dashboard/compliance
+5. /dashboard/documents
+6. /dashboard/models
+7. /dashboard/projects (List)
+8. /dashboard/reports
+9. /dashboard/settings
+10. /_not-found
+
+Dynamic Pages (ƒ)
+-----------------
+1. /dashboard/projects/[id]
+
+Total: 11 routes (10 static, 1 dynamic)
+
+
+Environment Variables
+=====================
+
+Required
+--------
+NEXT_PUBLIC_API_URL              Backend API endpoint
+
+Optional
+--------
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY
+CLERK_SECRET_KEY
+
+
+Development Commands
+====================
+
+npm install                      Install dependencies
+npm run dev                      Start development server (port 3000)
+npm run build                    Create production build
+npm start                        Start production server
+npm run lint                     Run ESLint
+
+
+File Statistics
+===============
+
+Total TypeScript files: 19
+- Pages: 10
+- Components: 6
+- Libraries: 2
+- Types: 1
+
+Lines of code: ~2,500+
+Components: 25+
+Routes: 11

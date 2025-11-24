@@ -1,0 +1,211 @@
+# ============================================================================
+# InfraFlow AI - Git Ignore File
+# ============================================================================
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# Secrets
+*.key
+*.pem
+*.p12
+secrets/
+credentials/
+
+# ============================================================================
+# PYTHON
+# ============================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# ============================================================================
+# NODE.JS / NEXT.JS
+# ============================================================================
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Next.js
+.next/
+out/
+next-env.d.ts
+
+# Production
+/build
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+*.log
+
+# ============================================================================
+# DOCKER
+# ============================================================================
+# Don't ignore Dockerfiles
+!Dockerfile
+!docker-compose.yml
+
+# Ignore docker volumes
+docker-volumes/
+*.db
+*.sqlite
+
+# ============================================================================
+# DATABASE
+# ============================================================================
+*.sql.backup
+*.dump
+migrations/versions/*.pyc
+
+# ============================================================================
+# IDE
+# ============================================================================
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ============================================================================
+# OS
+# ============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ============================================================================
+# LOGS
+# ============================================================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# ============================================================================
+# UPLOADS & TEMPORARY FILES
+# ============================================================================
+uploads/
+temp/
+tmp/
+*.tmp
+
+# ============================================================================
+# BUILD ARTIFACTS
+# ============================================================================
+dist/
+.cache/
+.parcel-cache/
+
+# ============================================================================
+# DOCUMENTATION
+# ============================================================================
+docs/_build/
+site/
+
+# ============================================================================
+# TESTING
+# ============================================================================
+coverage/
+.nyc_output/
+
+# ============================================================================
+# MISC
+# ============================================================================
+.eslintcache
+.turbo
+.vercel
