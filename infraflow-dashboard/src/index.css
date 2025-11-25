@@ -1,0 +1,174 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* InfraFlow AI Design System - Enterprise Financial Analytics */
+
+@layer base {
+  :root {
+    /* Enterprise Blue Theme */
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    /* Primary - Deep Blue (#1E40AF) */
+    --primary: 221 83% 40%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 221 83% 60%;
+    --primary-dark: 221 83% 30%;
+
+    /* Success - Green (#10B981) */
+    --success: 160 84% 39%;
+    --success-foreground: 0 0% 100%;
+    --success-light: 160 84% 45%;
+
+    /* Warning - Amber (#F59E0B) */
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+    
+    /* Error - Red (#EF4444) */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Neutral Palette */
+    --secondary: 220 14% 96%;
+    --secondary-foreground: 222 47% 11%;
+
+    --muted: 220 13% 95%;
+    --muted-foreground: 220 9% 46%;
+
+    --accent: 221 83% 95%;
+    --accent-foreground: 221 83% 40%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 221 83% 40%;
+
+    --radius: 0.5rem;
+
+    /* Enterprise-specific tokens */
+    --chart-1: 221 83% 40%;
+    --chart-2: 160 84% 39%;
+    --chart-3: 38 92% 50%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 82% 52%;
+    
+    --sidebar-background: 222 47% 11%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-accent: 221 83% 40%;
+    --sidebar-accent-foreground: 0 0% 100%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(221 83% 40%), hsl(221 83% 30%));
+    --gradient-success: linear-gradient(135deg, hsl(160 84% 39%), hsl(160 84% 30%));
+    
+    /* Shadows */
+    --shadow-card: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+    --shadow-elevated: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+    --shadow-overlay: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+
+    /* Animation */
+    --transition-base: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark {
+    --background: 222 47% 11%;
+    --foreground: 0 0% 98%;
+
+    --card: 222 47% 15%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 222 47% 15%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 221 83% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 217 33% 17%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 217 33% 17%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 221 83% 20%;
+    --accent-foreground: 221 83% 95%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 217 33% 20%;
+    --input: 217 33% 20%;
+    --ring: 221 83% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-feature-settings: 'cv11', 'ss01';
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold tracking-tight;
+  }
+
+  h1 {
+    @apply text-3xl md:text-4xl;
+  }
+
+  h2 {
+    @apply text-2xl md:text-3xl;
+  }
+
+  h3 {
+    @apply text-xl md:text-2xl;
+  }
+}
+
+/* Enterprise-specific utilities */
+@layer components {
+  .card-elevated {
+    @apply bg-card rounded-lg shadow-md border border-border;
+  }
+
+  .gradient-primary {
+    background: var(--gradient-primary);
+  }
+
+  .transition-base {
+    transition: var(--transition-base);
+  }
+
+  .kpi-card {
+    @apply bg-card rounded-lg p-6 shadow-sm border border-border transition-base hover:shadow-md;
+  }
+
+  .data-table {
+    @apply w-full border-collapse bg-card rounded-lg overflow-hidden;
+  }
+
+  .enterprise-input {
+    @apply flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm transition-base;
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
