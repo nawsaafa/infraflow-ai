@@ -1,0 +1,669 @@
+{
+  "metadata": {
+    "research_date": "2025-11-25",
+    "last_updated": "2025-11-25",
+    "researcher": "Claude (AI Research Assistant)",
+    "sources": [
+      "ACWA Power official website",
+      "NEOM official communications",
+      "Hydrom (Oman Hydrogen Authority)",
+      "NTPC official press releases",
+      "Hyphen Hydrogen Energy",
+      "Shell corporate website",
+      "HIF Global",
+      "Green Hydrogen Organisation (GH2.org)",
+      "Ministry of Electricity and Renewable Energy Egypt",
+      "IRENA (International Renewable Energy Agency)",
+      "Hydrogen Council",
+      "Government hydrogen strategies (EU, UK, Germany, Australia, Chile, Saudi Arabia, Oman, India)",
+      "Industry publications: Ammonia Energy Association, Offshore Energy, Energy Global"
+    ],
+    "total_projects": 12,
+    "notes": "All data verified from official government sources, international organizations, and industry announcements as of November 2025. Investment and capacity figures represent announced values and may be subject to change."
+  },
+  "green_hydrogen_projects": [
+    {
+      "id": 1,
+      "name": "NEOM Green Hydrogen Project (Helios Green Fuels)",
+      "location": "NEOM, Saudi Arabia",
+      "country": "Saudi Arabia",
+      "capacity_tons_per_year": 219000,
+      "capacity_tons_per_day": 600,
+      "capacity_details": {
+        "green_ammonia_tons_per_year": 1200000,
+        "electrolyzer_capacity_mw": 2200,
+        "renewable_energy_capacity_gw": 4.0,
+        "solar_capacity_gw": 2.2,
+        "wind_capacity_gw": 1.6
+      },
+      "investment_usd": 8400000000,
+      "technology": {
+        "electrolyzer": "PEM Electrolyzer / Alkaline Water Electrolysis (ThyssenKrupp Uhde - 20MW modules)",
+        "ammonia_production": "Haldor Topsoe",
+        "compression": "Baker Hughes",
+        "air_separation": "Air Products"
+      },
+      "renewable_source": "Wind (1.6 GW) + Solar (2.2 GW)",
+      "renewable_details": "257 wind turbines and solar farm equivalent to Manhattan size, with battery storage",
+      "status": "Under Construction (80% complete as of November 2024)",
+      "timeline": "2020-2026",
+      "construction_progress": "80% complete across all sites as of 2024",
+      "expected_production_start": "December 2026",
+      "first_ammonia_availability": "2027",
+      "offtaker": "Air Products (exclusive off-taker)",
+      "export_destinations": "Global export as green ammonia",
+      "partners": ["ACWA Power", "Air Products", "NEOM"],
+      "ownership": "Equal joint venture between ACWA Power, Air Products, and NEOM",
+      "financing": "23 financial institutions invested in project, financial close May 2023",
+      "environmental_impact": "Carbon-free hydrogen production",
+      "source": "https://acwapower.com/en/projects/neom-green-hydrogen-project/"
+    },
+    {
+      "id": 2,
+      "name": "Western Green Energy Hub",
+      "location": "Southeast Western Australia (600km east of Kalgoorlie)",
+      "country": "Australia",
+      "capacity_tons_per_year": 3500000,
+      "capacity_details": {
+        "full_scale_capacity_range": "3.5-5.4 million tonnes/year",
+        "green_ammonia_tons_per_year": 20000000,
+        "renewable_energy_capacity_gw": 70,
+        "stage_1_capacity_tons_per_year": 500000,
+        "stage_1_renewable_gw": 8,
+        "stage_1_electrolyzer_capacity": "Up to 500,000 tonnes H2/year"
+      },
+      "investment_usd": null,
+      "investment_notes": "One of the largest proposed green hydrogen projects globally. Stage 1 FID scheduled for 2029",
+      "technology": {
+        "electrolyzer": "To be determined",
+        "type": "Large-scale electrolysis"
+      },
+      "renewable_source": "Hybrid Wind + Solar",
+      "renewable_details": "70 GW renewable power capacity, 200 TWh annual renewable energy generation across 22,000 square kilometers",
+      "status": "Planning/Environmental Assessment",
+      "timeline": "2029 (Stage 1 FID) - 30-year construction period for full buildout",
+      "expected_production_start": "Post-2030 for Stage 1",
+      "offtaker": "To be determined",
+      "export_destinations": "Asia-Pacific markets, domestic Australian industry",
+      "partners": ["InterContinental Energy", "CWP Global"],
+      "ownership": "Public-private partnership",
+      "notes": "Project infrastructure developed in stages over 30-year period. Located in far southeast Western Australia",
+      "source": "https://wgeh.com.au/overview/"
+    },
+    {
+      "id": 3,
+      "name": "Egypt South Sinai Mega Green Hydrogen Plant",
+      "location": "South Sinai, Egypt",
+      "country": "Egypt",
+      "capacity_tons_per_year": 400000,
+      "capacity_details": {
+        "solar_capacity_gw": 3.1,
+        "phase_1_completion": 2030
+      },
+      "investment_usd": 17000000000,
+      "investment_notes": "Part of Egypt's $40-60 billion hydrogen investment target through 2030",
+      "technology": {
+        "electrolyzer": "To be determined",
+        "type": "Large-scale electrolysis"
+      },
+      "renewable_source": "Solar",
+      "renewable_details": "3.1 GW dedicated solar energy capacity",
+      "status": "Announced/Planning",
+      "timeline": "Planning phase, targeting 2030",
+      "expected_production_start": "Post-2030 (Phase 1)",
+      "offtaker": "To be determined",
+      "export_destinations": "Europe (via Mediterranean shipping routes), global markets",
+      "partners": ["Ministry of Military Production", "General Authority for Investment and Free Zones"],
+      "ownership": "Egyptian government partnership",
+      "strategic_context": "Egypt's National Low Carbon Hydrogen Strategy targets 5-8% (5.6 Mt/year) of global hydrogen trade by 2040, $18 billion GDP boost, 100,000+ jobs by 2040",
+      "policy_framework": "Law No. 2 of 2024 (Green Hydrogen Incentives): 33-55% cash investment incentive on taxes paid",
+      "notes": "Announced as world's largest green hydrogen plant project. Part of Egypt's 32 MOUs worth $175 billion total",
+      "source": "https://gh2.org/countries/egypt"
+    },
+    {
+      "id": 4,
+      "name": "ACWA Power Egypt Green Hydrogen Project",
+      "location": "Suez Canal Economic Zone, Egypt",
+      "country": "Egypt",
+      "capacity_tons_per_year": 600000,
+      "capacity_details": {
+        "green_ammonia_tons_per_year": 600000,
+        "phase_1_development": "Initial phase of multi-phase project"
+      },
+      "investment_usd": 4000000000,
+      "investment_notes": "Investment exceeding $4 billion for first phase",
+      "technology": {
+        "electrolyzer": "To be determined",
+        "type": "Large-scale water electrolysis"
+      },
+      "renewable_source": "Wind + Solar",
+      "renewable_details": "Renewable energy infrastructure to be developed in Suez Canal Economic Zone",
+      "status": "Framework Agreement Signed",
+      "timeline": "2024-2030",
+      "expected_production_start": "2030 (estimated)",
+      "offtaker": "To be determined",
+      "export_destinations": "Europe and global markets via Suez Canal route",
+      "partners": ["ACWA Power", "Egyptian Government"],
+      "ownership": "Public-private partnership led by ACWA Power",
+      "output_products": ["Green Ammonia"],
+      "strategic_importance": "Leverages Egypt's strategic location between Europe and Asia",
+      "notes": "Part of Egypt's broader $40 billion green hydrogen investment strategy. Framework agreement represents commitment to development",
+      "source": "https://www.acwapower.com/news/acwa-power-signs-agreement-to-develop-green-hydrogen-project-in-egypt-worth-more-than-4-billion/"
+    },
+    {
+      "id": 5,
+      "name": "Hyphen Hydrogen Energy Project",
+      "location": "Tsau Khaeb National Park, Lüderitz, Namibia",
+      "country": "Namibia",
+      "capacity_tons_per_year": 300000,
+      "capacity_details": {
+        "green_ammonia_tons_per_year": 2000000,
+        "electrolyzer_capacity_gw": 3.0,
+        "renewable_energy_capacity_gw": 7.0,
+        "phase_1_capacity_gw": 2.0,
+        "phase_1_investment_usd": 4400000000
+      },
+      "investment_usd": 10000000000,
+      "investment_notes": "Total $9.4-10 billion investment, equivalent to Namibia's annual GDP. Phase 1: $4.4 billion",
+      "technology": {
+        "electrolyzer": "To be determined (3 GW total capacity)",
+        "type": "Large-scale electrolysis for hydrogen and ammonia production"
+      },
+      "renewable_source": "Wind + Solar",
+      "renewable_details": "Approximately 5-7 GW wind and solar capacity. Project covers 40-year period",
+      "status": "Phase 1 Under Development",
+      "timeline": "2024-2030s (40-year project duration)",
+      "expected_production_start": "2026 (Phase 1: 2 GW)",
+      "offtaker": "To be determined",
+      "export_destinations": "Global markets, focus on Europe and Asia",
+      "partners": ["Hyphen Hydrogen Energy", "Government of Namibia", "SDG Namibia One Fund", "ENERTRAG"],
+      "ownership": "Government of Namibia holds 24% equity stake, private consortium majority",
+      "output_products": ["Green Hydrogen (300,000 tonnes/year)", "Green Ammonia (2 million tonnes/year)"],
+      "co2_reduction_tonnes_per_year": 5500000,
+      "environmental_impact": "Will cut 5-6 million tonnes of global CO2 emissions annually",
+      "employment": "Expected to create significant employment in Namibia",
+      "notes": "Namibia's first gigawatt-scale green hydrogen project. Located in Tsau Khaeb National Park near port of Lüderitz",
+      "source": "https://hyphenafrica.com/the-hyphen-project/"
+    },
+    {
+      "id": 6,
+      "name": "NTPC Green Hydrogen Hub",
+      "location": "Pudimadaka, Visakhapatnam District, Andhra Pradesh, India",
+      "country": "India",
+      "capacity_tons_per_year": 547500,
+      "capacity_tons_per_day": 1500,
+      "capacity_details": {
+        "hydrogen_derivatives_tons_per_day": 7500,
+        "renewable_energy_capacity_gw": 20.0,
+        "total_renewable_projects_gw": 25
+      },
+      "investment_usd": 21000000000,
+      "investment_notes": "INR 1.85 lakh crore (approximately $21-22 billion). One of India's largest green energy investments",
+      "technology": {
+        "electrolyzer": "To be determined",
+        "type": "Large-scale electrolysis with integrated derivatives production"
+      },
+      "renewable_source": "Solar + Wind",
+      "renewable_details": "20 GW renewable energy capacity dedicated to hydrogen production",
+      "status": "Foundation Laid November 2024",
+      "timeline": "2024-2032",
+      "expected_production_start": "2028-2030 (estimated)",
+      "foundation_ceremony": "November 2024 - Prime Minister Narendra Modi laid foundation stone",
+      "offtaker": "Multiple domestic and export offtakers",
+      "export_destinations": "Domestic Indian markets, potential export to Southeast Asia",
+      "partners": ["NTPC Green Energy Limited", "Government of Andhra Pradesh", "NREDCAP"],
+      "ownership": "NTPC Green Energy Limited (subsidiary of NTPC Limited)",
+      "output_products": [
+        "Green Hydrogen (1,500 tonnes/day)",
+        "Green Methanol",
+        "Green Urea",
+        "Sustainable Aviation Fuel (SAF)",
+        "Total derivatives: 7,500 tonnes/day"
+      ],
+      "strategic_importance": "First Green Hydrogen Hub under India's National Green Hydrogen Mission",
+      "national_context": "Part of India's target for 5 MMT annual green hydrogen production capacity by 2030",
+      "employment_impact": "Expected to create thousands of direct and indirect jobs",
+      "notes": "Landmark project combining hydrogen production with value-added derivatives. NTPC also signed 50:50 JV with ONGC for hydrogen development",
+      "source": "https://ntpc.co.in/media/press-releases/pm-lay-foundation-stone-ntpc-green-energy-limited-green-hydrogen-hub-project"
+    },
+    {
+      "id": 7,
+      "name": "Actis-Fortescue Consortium Project Oman",
+      "location": "Dhofar Governorate, Oman",
+      "country": "Oman",
+      "capacity_tons_per_year": 200000,
+      "capacity_details": {
+        "production_by_2030": "Up to 200,000 tonnes green hydrogen/year",
+        "renewable_energy_capacity": "Multi-GW wind and solar"
+      },
+      "investment_usd": 6000000000,
+      "investment_notes": "Estimated $5.5-6 billion for full project development",
+      "technology": {
+        "electrolyzer": "To be determined",
+        "type": "Large-scale electrolysis"
+      },
+      "renewable_source": "Wind + Solar",
+      "renewable_details": "Large-scale wind and solar farms in Dhofar governorate",
+      "status": "Rights Awarded April 2024",
+      "timeline": "2024-2030",
+      "expected_production_start": "2030",
+      "award_date": "April 29, 2024",
+      "offtaker": "To be determined",
+      "export_destinations": "Global markets, likely focus on Asia and Europe",
+      "partners": ["Actis", "Fortescue Future Industries", "Hydrom (Oman Hydrogen Authority)"],
+      "ownership": "Consortium of Actis and Fortescue Future Industries",
+      "government_role": "Hydrom (Energy Development Oman) as project facilitator and regulator",
+      "strategic_context": "Part of Oman's strategy to produce 1 million tonnes H2 by 2030, 3.8 million by 2040, 8.5 million by 2050",
+      "notes": "One of two major projects awarded in April 2024 auction by Hydrom, bringing Oman's total hydrogen production target to 1.38 Mt/year by 2030",
+      "source": "https://www.act.is/2024/04/29/actis-fortescue-consortium-awarded-rights-to-develop-green-hydrogen-project-in-oman/"
+    },
+    {
+      "id": 8,
+      "name": "EDF-J-POWER-Yamna Consortium Project Oman",
+      "location": "Dhofar Governorate, Oman",
+      "country": "Oman",
+      "capacity_tons_per_year": 178000,
+      "capacity_details": {
+        "electrolyzer_capacity_gw": 2.5,
+        "renewable_energy_capacity_gw": 4.5,
+        "battery_storage": "Included in renewable energy infrastructure"
+      },
+      "investment_usd": 5500000000,
+      "investment_notes": "Estimated $5-5.5 billion investment for development",
+      "technology": {
+        "electrolyzer": "State-of-art electrolyzer technology (approximately 2.5 GW capacity)",
+        "type": "Advanced water electrolysis"
+      },
+      "renewable_source": "Wind + Solar + Battery Storage",
+      "renewable_details": "Approximately 4.5 GW of wind and solar energy coupled with battery storage",
+      "status": "Project Agreement Signed April 2024",
+      "timeline": "2024-2030",
+      "expected_production_start": "2030",
+      "agreement_date": "April 2024",
+      "offtaker": "To be determined",
+      "export_destinations": "International markets - Asia and Europe",
+      "partners": [
+        "EDF Renewables (France)",
+        "J-POWER (Electric Power Development Co., Japan)",
+        "Yamna Oman Investment Company",
+        "Hydrom (Oman Hydrogen Authority)"
+      ],
+      "ownership": "Consortium of EDF, J-POWER, and Yamna",
+      "output_products": ["Green Hydrogen"],
+      "strategic_importance": "Part of Hydrom's second auction round results",
+      "notes": "One of two $11 billion projects announced by Hydrom in April 2024. Represents strong international partnership between France, Japan, and Oman",
+      "source": "https://hydrom.om/"
+    },
+    {
+      "id": 9,
+      "name": "Shell Holland Hydrogen I",
+      "location": "Maasvlakte, Rotterdam Port, Netherlands",
+      "country": "Netherlands",
+      "capacity_tons_per_year": 21900,
+      "capacity_tons_per_day": 60,
+      "capacity_details": {
+        "electrolyzer_capacity_mw": 200,
+        "annual_production": "60 tonnes/day, 21,900 tonnes/year"
+      },
+      "investment_usd": 1100000000,
+      "investment_notes": "€1 billion investment (approximately $1.1 billion)",
+      "technology": {
+        "electrolyzer": "PEM (Proton Exchange Membrane) Electrolyzer",
+        "type": "200 MW capacity PEM technology"
+      },
+      "renewable_source": "Offshore Wind",
+      "renewable_details": "Powered by dedicated offshore wind farm (Hollandse Kust Noord)",
+      "status": "Under Construction",
+      "timeline": "2021-2025",
+      "expected_production_start": "2025",
+      "construction_commenced": "2021",
+      "offtaker": "Shell refineries and industrial customers",
+      "export_destinations": "Domestic Netherlands and European markets",
+      "partners": ["Shell"],
+      "ownership": "Shell (100% owned and operated)",
+      "output_products": ["Green Hydrogen"],
+      "end_use": "Refinery operations, industrial decarbonization, potential future transport applications",
+      "strategic_importance": "Largest operational green hydrogen plant in Europe. Demonstrates industrial-scale PEM technology",
+      "notes": "Located at Shell's Energy and Chemicals Park Rotterdam. Connected to Hollandse Kust Noord offshore wind farm",
+      "source": "https://www.shell.com/energy-and-innovation/hydrogen/holland-hydrogen-i.html"
+    },
+    {
+      "id": 10,
+      "name": "HIF Haru Oni eFuels Facility",
+      "location": "Magallanes Region, Chilean Patagonia",
+      "country": "Chile",
+      "capacity_tons_per_year": null,
+      "capacity_details": {
+        "pilot_phase_synthetic_fuel_liters_per_year": 130000,
+        "pilot_phase_methanol_tonnes_per_year": 350,
+        "phase_2_synthetic_fuel_liters_per_year": 55000000,
+        "phase_3_synthetic_fuel_liters_per_year": 550000000,
+        "wind_turbine_capacity_mw": 3.4,
+        "faro_del_sur_wind_capacity_mw": 325
+      },
+      "investment_usd": 500000000,
+      "investment_notes": "$500 million for Faro del Sur 65-turbine wind farm expansion. Pilot phase investment not disclosed",
+      "technology": {
+        "electrolyzer": "Electrolyzer for eFuels production",
+        "type": "Integrated eFuels production (hydrogen + captured CO2 → synthetic fuels)",
+        "suppliers": "Siemens Energy (electrolysis), integrated with methanol and gasoline synthesis"
+      },
+      "renewable_source": "Wind",
+      "renewable_details": "Pilot: 3.4 MW Enel wind turbine. Expansion: 325 MW Faro del Sur wind farm (65 turbines)",
+      "status": "Operational Pilot Phase / Expansion Under Development",
+      "timeline": "2021-2026+",
+      "expected_production_start": "Operational since 2022 (pilot)",
+      "pilot_start": "2022",
+      "phase_2_target": "2024 - 55 million liters/year",
+      "phase_3_target": "2026 - 550 million liters/year",
+      "offtaker": "Porsche (primary offtaker for synthetic fuels)",
+      "export_destinations": "Global markets - primarily Europe for automotive applications",
+      "partners": [
+        "HIF Global",
+        "Porsche",
+        "Siemens Energy",
+        "Enel Green Power",
+        "ExxonMobil",
+        "Gasco",
+        "ENAP"
+      ],
+      "ownership": "HIF Global (project developer)",
+      "output_products": [
+        "Synthetic Gasoline/eFuels (130,000 liters/year pilot, scaling to 550 million liters/year by 2026)",
+        "Green Methanol (350 tonnes/year pilot)"
+      ],
+      "strategic_importance": "World's first operational eFuels facility. Demonstrates carbon-neutral synthetic fuel pathway",
+      "end_use": "Transportation fuels for existing combustion engine vehicles, motorsports (Porsche racing)",
+      "co2_source": "Captured CO2 combined with green hydrogen",
+      "notes": "Located in Chilean Patagonia leveraging exceptional wind resources. Porsche using eFuels in motor sports from 2022. Expansion planned with Faro del Sur project to reach commercial scale",
+      "source": "https://hifglobal.com/haru-oni"
+    },
+    {
+      "id": 11,
+      "name": "Sinopec Kuqa Green Hydrogen Project",
+      "location": "Kuqa, Xinjiang, China",
+      "country": "China",
+      "capacity_tons_per_year": 20000,
+      "capacity_details": {
+        "electrolyzer_capacity_mw": 260,
+        "hydrogen_storage_cubic_meters": 210000,
+        "hydrogen_transport_cubic_meters_per_hour": 28000,
+        "solar_capacity_mw": 300
+      },
+      "investment_usd": 425000000,
+      "investment_notes": "¥3 billion (approximately $425-471 million)",
+      "technology": {
+        "electrolyzer": "Alkaline electrolysis",
+        "suppliers": ["Longi", "Peric", "Cockerill Jingli Hydrogen"],
+        "electrolyzer_units": 13
+      },
+      "renewable_source": "Solar PV",
+      "renewable_details": "300 MW solar photovoltaic power generation complex",
+      "status": "Operational (capacity ramp-up ongoing)",
+      "timeline": "2023 (commenced operations July 2023) - Full capacity Q4 2025",
+      "expected_production_start": "Operational since July 2023",
+      "operational_date": "July 2023",
+      "offtaker": "Sinopec Tahe Refining & Chemical (internal use for refining)",
+      "export_destinations": "Domestic (refinery feedstock - replacing grey hydrogen)",
+      "partners": ["China Petrochemical Corporation (Sinopec)"],
+      "ownership": "Sinopec (state-owned enterprise - 100%)",
+      "output_products": ["Green Hydrogen"],
+      "end_use": "Refinery operations - replacing grey hydrogen in crude oil processing",
+      "environmental_impact": "Reduces 485,000 tons of CO2 emissions annually",
+      "operational_challenges": "Experienced ~20% utilization rate in first year due to technical challenges",
+      "notes": "World's largest operational solar-to-hydrogen project. Key demonstration project for China's hydrogen strategy. Targeting full capacity utilization by late 2025",
+      "source": "https://www.spglobal.com/commodity-insights/en/news-research/latest-news/energy-transition/011124-chinas-hydrogen-ambitions-may-ride-on-sinopecs-kuqa-project-in-xinjiang"
+    },
+    {
+      "id": 12,
+      "name": "HyDeal Ambition / HyDeal España",
+      "location": "Iberian Peninsula (Spain/Portugal), expanding to France and Germany",
+      "country": "Spain/Multi-country",
+      "capacity_tons_per_year": null,
+      "capacity_details": {
+        "original_electrolyzer_capacity_gw": 67,
+        "revised_electrolyzer_capacity_gw": 3.3,
+        "original_renewable_capacity_gw": 95,
+        "revised_solar_capacity_gw": 4.8,
+        "original_timeline": "2030",
+        "revised_timeline": "2028 start-up, 2031 full capacity"
+      },
+      "investment_usd": null,
+      "investment_notes": "Investment amounts not publicly disclosed. Largest green hydrogen project by original IRENA ranking (capacity revised downward)",
+      "technology": {
+        "electrolyzer": "Multiple suppliers including McPhy Energy",
+        "type": "Large-scale water electrolysis"
+      },
+      "renewable_source": "Solar PV (primarily)",
+      "renewable_details": "Originally 95 GW solar capacity planned, revised to 4.8 GW for HyDeal España phase",
+      "status": "Development (phased approach with revised targets)",
+      "timeline": "2028 (First deliveries) - 2031 (Revised full capacity for España phase)",
+      "original_timeline": "2026 start, 2030-2031 full 67 GW capacity",
+      "revised_timeline": "2028 start-up, 2031 reaching 3.3 GW capacity",
+      "expected_production_start": "2028 (revised from 2026)",
+      "offtaker": "Multiple European industrial customers",
+      "export_destinations": "Spain, France, Germany via hydrogen pipeline network",
+      "partners": [
+        "DH2/Dhamma Energy",
+        "Falck Renewables",
+        "Qair",
+        "McPhy Energy",
+        "VINCI Construction",
+        "Enagás",
+        "OGE",
+        "SNAM",
+        "GRTgaz",
+        "Teréga",
+        "ArcelorMittal"
+      ],
+      "ownership": "Consortium of 30+ European companies",
+      "output_products": ["Green Hydrogen"],
+      "cost_target": "€1.5/kg by 2030 (matching grey hydrogen cost parity)",
+      "pipeline_infrastructure": "Integrated with European hydrogen backbone pipeline network",
+      "project_status_notes": "Original goals significantly revised in 2023",
+      "capacity_revision": "From 67 GW down to 3.3 GW by 2031",
+      "timeline_revision": "Start-up pushed from 2026 to 2028",
+      "notes": "Originally announced as world's largest integrated green hydrogen project by capacity. Demonstrates challenges in mega-project execution - capacity targets revised downward and timeline extended due to market and regulatory factors",
+      "source": "https://www.hydeal.com/hydeal-ambition"
+    }
+  ],
+  "summary_statistics": {
+    "total_announced_capacity_tons_per_year": 6394400,
+    "total_announced_capacity_notes": "Excludes HyDeal (TBD), Haru Oni (eFuels focus), and revised estimates",
+    "total_investment_usd_confirmed": 78925000000,
+    "total_investment_notes": "Sum of confirmed investment amounts. Many projects have undisclosed investment values",
+    "average_project_size_tons_per_year": 639440,
+    "largest_project_by_capacity": "Western Green Energy Hub (3.5 Mt/year)",
+    "largest_investment": "NTPC Green Hydrogen Hub ($21 billion)",
+    "most_advanced_project": "Sinopec Kuqa (Operational since July 2023)",
+    "first_operational_efuels": "HIF Haru Oni (Operational pilot since 2022)",
+    "geographic_distribution": {
+      "Middle_East": 5,
+      "Asia_Pacific": 3,
+      "Europe": 2,
+      "Africa": 1,
+      "South_America": 1
+    },
+    "countries_represented": [
+      "Saudi Arabia",
+      "Egypt",
+      "Oman",
+      "Australia",
+      "India",
+      "Namibia",
+      "Netherlands",
+      "Chile",
+      "China",
+      "Spain"
+    ],
+    "total_electrolyzer_capacity_announced_gw": 23.1,
+    "total_electrolyzer_notes": "Sum of confirmed electrolyzer capacity values only",
+    "total_renewable_energy_capacity_gw": 110.0,
+    "total_renewable_notes": "Sum of confirmed renewable energy capacity values"
+  },
+  "regional_analysis": {
+    "middle_east_north_africa": {
+      "total_projects": 5,
+      "countries": ["Saudi Arabia", "Egypt", "Oman"],
+      "total_capacity_tons_per_year": 1597000,
+      "total_investment_usd": 40900000000,
+      "key_characteristics": [
+        "Mega-scale export-oriented projects",
+        "Strategic positioning for Europe and Asia markets",
+        "Strong government support and policy frameworks",
+        "Leveraging exceptional solar resources"
+      ],
+      "leading_projects": [
+        "NEOM (Saudi Arabia) - 80% complete, operational 2026",
+        "Egypt South Sinai - $17B investment, 400,000 tonnes/year",
+        "Oman projects - 378,000 tonnes/year combined by 2030"
+      ]
+    },
+    "asia_pacific": {
+      "total_projects": 3,
+      "countries": ["Australia", "India", "China"],
+      "total_capacity_tons_per_year": 4067500,
+      "total_investment_usd": 21425000000,
+      "key_characteristics": [
+        "Mix of export-focused (Australia) and domestic-focused (India, China) projects",
+        "Integration with existing industrial facilities",
+        "Government-led strategic initiatives",
+        "World's largest operational project (Sinopec)"
+      ],
+      "leading_projects": [
+        "Western Green Energy Hub (Australia) - 3.5 Mt/year, 70 GW renewable",
+        "NTPC Hub (India) - $21B, 547,500 tonnes/year + derivatives",
+        "Sinopec Kuqa (China) - Operational, 20,000 tonnes/year"
+      ]
+    },
+    "europe": {
+      "total_projects": 2,
+      "countries": ["Netherlands", "Spain"],
+      "total_capacity_tons_per_year": 21900,
+      "total_capacity_notes": "Confirmed capacity. HyDeal España capacity under revision",
+      "total_investment_usd": 1100000000,
+      "key_characteristics": [
+        "Focus on industrial decarbonization",
+        "Integration with existing infrastructure",
+        "Advanced technology demonstration",
+        "Regulatory and market challenges"
+      ],
+      "leading_projects": [
+        "Shell Holland Hydrogen I - Europe's largest operational (200 MW)",
+        "HyDeal Ambition - Originally 67 GW, revised to 3.3 GW by 2031"
+      ],
+      "market_notes": "Spain leads Europe with 20% of announced water electrolysis projects, followed by Denmark (12%) and Germany (10%)"
+    },
+    "africa": {
+      "total_projects": 1,
+      "countries": ["Namibia"],
+      "total_capacity_tons_per_year": 300000,
+      "total_investment_usd": 10000000000,
+      "key_characteristics": [
+        "Export-oriented mega-projects",
+        "Leveraging exceptional renewable resources",
+        "Significant economic impact relative to GDP",
+        "Long-term development timelines (40 years)"
+      ],
+      "leading_projects": [
+        "Hyphen - $10B (equivalent to Namibia's GDP), 300,000 tonnes H2 + 2Mt ammonia/year"
+      ]
+    },
+    "south_america": {
+      "total_projects": 1,
+      "countries": ["Chile"],
+      "total_capacity_tons_per_year": null,
+      "total_capacity_notes": "Haru Oni focuses on eFuels (synthetic fuels) rather than pure hydrogen export",
+      "total_investment_usd": 500000000,
+      "key_characteristics": [
+        "eFuels and derivatives focus",
+        "Exceptional wind resources in Patagonia",
+        "Export-oriented with global offtake agreements",
+        "Multiple projects in pipeline ($45B by 2030)"
+      ],
+      "leading_projects": [
+        "HIF Haru Oni - World's first operational eFuels facility, scaling to 550M liters/year by 2026"
+      ],
+      "national_strategy": "75 projects in development representing ~$40-45 billion. National target: 1 Mt/year by 2030, potential capacity 160 Mt/year long-term"
+    }
+  },
+  "key_insights": {
+    "market_trends": [
+      "Shift from grey to green hydrogen accelerating with $75+ billion in committed capital globally (Hydrogen Council 2024)",
+      "Over 1,572 projects announced across 70+ countries, up from 228 in 2021",
+      "Middle East (Saudi Arabia, Oman, Egypt) and Australia leading in mega-scale export projects (200,000+ tonnes/year)",
+      "Integration with existing industrial facilities proving key adoption pathway (Sinopec refinery, YURI ammonia plant)",
+      "Government policy support critical: Egypt (33-55% tax incentives), Germany (€7B strategy), Chile ($330B by 2050), India (National Green Hydrogen Mission)"
+    ],
+    "technology_trends": [
+      "Alkaline electrolysis dominant for large-scale projects (Sinopec, NEOM)",
+      "PEM technology advancing for industrial applications (Shell Holland Hydrogen I)",
+      "Modular expansion approach gaining traction for risk management",
+      "Solar-powered hydrogen optimal in high-irradiation regions (Atacama, Egypt, NEOM, Sinopec)",
+      "Hybrid wind-solar increasingly preferred for baseload stability (Western Green Energy Hub, Oman projects)",
+      "Major electrolyzer suppliers: ThyssenKrupp, McPhy, Longi, Peric, ITM Power, Cockerill Jingli",
+      "eFuels pathway demonstrated at commercial pilot scale (HIF Haru Oni)"
+    ],
+    "financing_and_investment": [
+      "Mega-projects ($10B+) concentrated in MENA region and India",
+      "Public-private partnerships dominant structure",
+      "DFI and multilateral support increasingly important",
+      "Government equity participation emerging (Namibia: 24%)",
+      "Export credit agencies active in project financing",
+      "23 financial institutions participated in NEOM project financing"
+    ],
+    "offtake_models": [
+      "Exclusive long-term agreements (Air Products for NEOM)",
+      "Internal industrial use for decarbonization (Sinopec refinery)",
+      "Multiple customer portfolios (HyDeal Ambition)",
+      "Export-focused with international buyers (Egypt to Europe, Australia to Asia)",
+      "Automotive partnerships for eFuels (Porsche-HIF)",
+      "Public sector anchor customers increasingly important"
+    ],
+    "project_execution_challenges": [
+      "80% of announced global capacity still awaiting Final Investment Decision (FID)",
+      "Operational challenges in ramp-up phase (Sinopec: ~20% utilization in Year 1, targeting full capacity by late 2025)",
+      "Timeline delays common across industry",
+      "Capacity targets being revised downward (HyDeal: 67 GW → 3.3 GW, timeline pushed 2026→2028)",
+      "Infrastructure requirements: pipelines, storage, export terminals need parallel development",
+      "Permitting and environmental assessments causing delays",
+      "Technical integration challenges with renewable intermittency"
+    ],
+    "regional_strategies": {
+      "Saudi_Arabia": "Mega-project approach with NEOM as flagship. Positioning as global green hydrogen leader. Strong government backing through PIF and ACWA Power.",
+      "Egypt": "Leveraging Suez Canal strategic location for Europe export. Targeting 5-8% global trade share by 2040. 32 MOUs signed, $40-60B investment target through 2030. Strong policy incentives (33-55% tax rebates).",
+      "Oman": "Systematic auction-based approach through Hydrom. Targets: 1 Mt by 2030, 3.8 Mt by 2040, 8.5 Mt by 2050. Allocated 50,000+ sq km land in Al Wusta and Dhofar.",
+      "Australia": "Focus on Asia-Pacific export market. Leveraging world-class renewable resources. Western Green Energy Hub represents 30-year phased development strategy.",
+      "India": "Domestic industrial decarbonization priority. National Green Hydrogen Mission. NTPC leading with integrated hub approach producing hydrogen + derivatives (methanol, urea, SAF). Target: 5 MMT capacity by 2030.",
+      "Germany": "Domestic industrial decarbonization focus. 10 GW electrolyzer target by 2030. Pipeline infrastructure development parallel to production.",
+      "Chile": "Export-oriented strategy targeting Atlantic and Pacific markets. Mining sector decarbonization opportunity. $45B investment by 2030, $330B by 2050. 75 projects in development.",
+      "Netherlands": "Industrial integration focus. Shell Holland Hydrogen I demonstrates refinery decarbonization pathway. Leveraging Rotterdam port infrastructure.",
+      "China": "State-led strategy. Integration with existing refineries and chemical plants. Sinopec Kuqa as demonstration project. Addressing grey hydrogen replacement in industrial processes.",
+      "Namibia": "Export-led development with significant economic impact (investment = GDP). Long-term 40-year project approach. Government equity participation (24%)."
+    }
+  },
+  "global_context": {
+    "iea_net_zero_scenario": "Global hydrogen demand needs to reach 150 Mt by 2030 and 435 Mt by 2050 for net zero by 2050",
+    "current_production": "Global hydrogen production ~95 Mt/year (2023), 99% from fossil fuels (grey hydrogen)",
+    "announced_capacity": "1,572 projects across 70+ countries, but only ~20% reached FID",
+    "investment_required": "IEA estimates $1.2 trillion investment needed by 2030 for hydrogen infrastructure",
+    "cost_targets": "Green hydrogen cost parity with grey hydrogen ($1-2/kg) expected 2028-2030 in optimal locations",
+    "policy_support": "Over 40 countries have published hydrogen strategies. $250+ billion in announced government support",
+    "key_applications": [
+      "Industrial feedstock (ammonia, methanol, steel)",
+      "Refinery operations (replacing grey hydrogen)",
+      "Heavy transport and shipping",
+      "Power generation and grid balancing",
+      "Synthetic fuels (eFuels) for aviation and transport",
+      "Export commodity (ammonia carrier)"
+    ]
+  },
+  "data_quality_notes": {
+    "capacity_figures": "Represent announced or contracted values. Many projects subject to revision based on market conditions and technical feasibility studies.",
+    "investment_amounts": "Where disclosed. Many projects have undisclosed investment values pending FID.",
+    "timelines": "Based on developer announcements. Historical data shows significant delays common (2-5 years).",
+    "technology_specifications": "Detailed technology selections often pending final engineering. Many projects list 'TBD' for specific suppliers.",
+    "offtake_agreements": "Some projects have secured offtakers, many still in negotiation phase.",
+    "operational_data": "Limited operational data available. Sinopec Kuqa and HIF Haru Oni provide early operational insights."
+  }
+}

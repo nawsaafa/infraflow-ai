@@ -1,0 +1,479 @@
+{
+  "metadata": {
+    "research_date": "2025-11-25",
+    "data_sources": [
+      "World Bank Carbon Pricing Dashboard",
+      "EU Emissions Trading System",
+      "Verra (VCS)",
+      "Gold Standard",
+      "Trading Economics",
+      "BloombergNEF",
+      "Climate Focus",
+      "ICVCM"
+    ],
+    "note": "Prices are approximate and subject to market fluctuations. Data compiled from multiple verified sources."
+  },
+  "carbon_markets": {
+    "compliance_markets": {
+      "pricing": [
+        {
+          "market": "EU ETS",
+          "current_price_per_ton": 80.41,
+          "currency": "EUR",
+          "date": "2024-11-21",
+          "price_range_2024": "80-90 EUR",
+          "average_2024": 65,
+          "mechanism": "Cap-and-trade",
+          "coverage": "27+ EU member states",
+          "established": 2005,
+          "phase": "Phase 4 (2021-2030)",
+          "credit_type": "EUA (European Union Allowance)",
+          "sectors_covered": [
+            "Power generation",
+            "Industrial manufacturing",
+            "Aviation",
+            "Maritime transport"
+          ]
+        },
+        {
+          "market": "California Cap-and-Trade",
+          "current_price_per_ton": 39,
+          "price_range": "38-40",
+          "currency": "USD",
+          "date": "2024",
+          "mechanism": "Cap-and-trade",
+          "coverage": "California",
+          "established": 2012,
+          "credit_type": "CCA (California Carbon Allowance)",
+          "linkage": "Linked with Quebec, exploring linkage with Washington"
+        },
+        {
+          "market": "RGGI (Regional Greenhouse Gas Initiative)",
+          "current_price_per_ton": 20.39,
+          "currency": "USD",
+          "date": "2024-12",
+          "mechanism": "Cap-and-trade",
+          "coverage": "10 Northeastern US states",
+          "sectors_covered": [
+            "Power generation"
+          ],
+          "recent_updates": "Tightened emissions budget and improved cost-containment mechanisms (July 2024)"
+        },
+        {
+          "market": "China National ETS",
+          "mechanism": "Cap-and-trade",
+          "established": 2021,
+          "coverage": "China (largest national ETS)",
+          "sectors_covered": [
+            "Power generation"
+          ]
+        },
+        {
+          "market": "New Zealand ETS",
+          "mechanism": "Cap-and-trade",
+          "coverage": "New Zealand"
+        },
+        {
+          "market": "South Korea ETS",
+          "mechanism": "Cap-and-trade",
+          "coverage": "South Korea"
+        }
+      ],
+      "carbon_taxes": [
+        {
+          "jurisdictions": [
+            "Sweden",
+            "Norway",
+            "Finland",
+            "Denmark"
+          ],
+          "region": "Nordic countries",
+          "established": "1990s"
+        },
+        {
+          "jurisdictions": [
+            "France",
+            "Germany",
+            "Switzerland",
+            "United Kingdom"
+          ],
+          "region": "Europe"
+        },
+        {
+          "jurisdictions": [
+            "Canada (federal and provincial)",
+            "Chile",
+            "Colombia",
+            "South Africa",
+            "Singapore",
+            "Mexico"
+          ],
+          "region": "Global"
+        }
+      ],
+      "market_statistics": {
+        "us_average_carbon_price": 3,
+        "us_emissions_coverage": "10%",
+        "global_emissions_coverage": "20%"
+      }
+    },
+    "voluntary_markets": {
+      "pricing": [
+        {
+          "credit_quality": "High-rated (A-AAA-)",
+          "average_price_per_ton": 14.80,
+          "currency": "USD",
+          "year": 2024
+        },
+        {
+          "credit_quality": "Low-quality (CCC-B)",
+          "average_price_per_ton": 3.50,
+          "currency": "USD",
+          "year": 2024
+        },
+        {
+          "credit_quality": "Market average",
+          "average_price_per_ton": 4.00,
+          "currency": "USD",
+          "date": "Mid-2024"
+        }
+      ],
+      "pricing_by_project_type": [
+        {
+          "project_type": "Nature-based Solutions (NBS)",
+          "average_price_per_ton": 20,
+          "currency": "USD",
+          "year": 2024,
+          "notes": "Offtake agreements doubled to 18 deals, securing over 20 million tons"
+        },
+        {
+          "project_type": "Restoration credits",
+          "average_price_per_ton": 14,
+          "currency": "USD",
+          "year": 2024
+        },
+        {
+          "project_type": "Energy efficiency",
+          "average_price_per_ton": 5.80,
+          "currency": "USD",
+          "year": 2024
+        },
+        {
+          "project_type": "REDD+ (Reducing Emissions from Deforestation and Forest Degradation)",
+          "average_price_per_ton": 2.70,
+          "currency": "USD",
+          "year": 2024
+        }
+      ],
+      "market_statistics": {
+        "global_emissions_coverage": "Less than 1%",
+        "verra_market_share": "63% of retirements in 2024",
+        "total_projects_vcs": "2,300+ registered projects",
+        "total_credits_verra": "1.3B+ Verified Carbon Units issued",
+        "countries_covered": "132+"
+      }
+    },
+    "methodologies": [
+      {
+        "name": "CDM (Clean Development Mechanism)",
+        "issuer": "UNFCCC",
+        "type": "Compliance",
+        "project_types": [
+          "Renewable Energy (large-scale grid-connected)",
+          "Renewable Energy (small-scale)",
+          "Energy Efficiency",
+          "Forestry and Land Use",
+          "Waste Management",
+          "Industrial processes"
+        ],
+        "credit_type": "CER (Certified Emission Reduction)",
+        "key_methodologies": [
+          "ACM0002 (large-scale renewable energy)",
+          "AMS-I.D. (small-scale renewable energy)"
+        ],
+        "status": "Transitioning to Article 6.4 mechanism",
+        "notes": "Hundreds of approved methodologies available on UNFCCC CDM website"
+      },
+      {
+        "name": "VCS (Verified Carbon Standard)",
+        "issuer": "Verra",
+        "type": "Voluntary",
+        "project_types": [
+          "AFOLU (Agriculture, Forestry, Other Land Use)",
+          "REDD+ (Reducing Emissions from Deforestation)",
+          "Renewable Energy",
+          "Energy Efficiency",
+          "Transportation",
+          "Waste Management",
+          "Manufacturing Industries"
+        ],
+        "credit_type": "VCU (Verified Carbon Unit)",
+        "key_methodologies": [
+          "VM0048 (new REDD+ methodology with jurisdictional baselines - 2023/2024)",
+          "JNR Framework (Jurisdictional and Nested REDD+)",
+          "Various CDM methodologies adopted for VCS use"
+        ],
+        "registered_projects": "2,300+",
+        "total_credits_issued": "1.3 billion+ VCUs",
+        "countries": "132+",
+        "recent_updates": [
+          "New REDD+ methodology VM0048 (November 2023)",
+          "Enhanced JNR Framework alignment (July 2024)",
+          "Renewable energy methodologies under ICVCM review (not yet approved)"
+        ]
+      },
+      {
+        "name": "Gold Standard",
+        "issuer": "Gold Standard Foundation",
+        "type": "Voluntary",
+        "project_types": [
+          "Renewable Energy",
+          "Energy Efficiency",
+          "Cookstoves",
+          "Natural Climate Solutions (forestry)",
+          "Waste Management",
+          "Water Benefits",
+          "Community Services"
+        ],
+        "credit_type": "VER (Verified Emission Reduction)",
+        "key_methodologies": [
+          "GS TPDDTEC (Technologies and Practices to Displace Decentralized Thermal Energy Consumption) v4.0",
+          "GS Simplified Methodology for Clean and Efficient Cookstoves v1.1",
+          "GS Metered & Measured Energy Cooking Devices v1.0"
+        ],
+        "registered_projects": "4,385",
+        "total_emission_reductions": "445 million tonnes CO2e",
+        "countries": "114",
+        "special_certifications": [
+          "CORSIA approved for Second Phase (2027-2029)"
+        ],
+        "focus": "High-integrity credits with sustainable development goals (SDGs)",
+        "cookstove_projects": "1,605 cookstove projects generating 163 million credits"
+      },
+      {
+        "name": "ART TREES",
+        "issuer": "Architecture for REDD+ Transactions",
+        "type": "Voluntary",
+        "project_types": [
+          "Jurisdictional REDD+"
+        ],
+        "icvcm_status": "Meets high-integrity benchmark (confirmed with Verra)"
+      }
+    ],
+    "verification_processes": {
+      "compliance_market_verification": {
+        "process_steps": [
+          "Project design and documentation",
+          "Validation by Designated Operational Entity (DOE)",
+          "Registration with recognized standard",
+          "Implementation and monitoring",
+          "Verification by third-party auditor",
+          "Credit issuance by regulatory body"
+        ],
+        "key_requirements": [
+          "Additionality (project would not happen anyway)",
+          "Baseline establishment (future emissions without project)",
+          "Real, measurable, long-term emission reductions",
+          "Host country consent (for CDM)",
+          "Contribution to sustainable development",
+          "Approved baseline and monitoring methodology"
+        ],
+        "credit_equivalence": "1 credit = 1 tonne CO2e"
+      },
+      "voluntary_market_verification": {
+        "process_steps": [
+          "Project design using approved methodology",
+          "Validation by accredited third-party (VVB - Validation and Verification Body)",
+          "Public comment period",
+          "Registration with standard (Verra, Gold Standard, etc.)",
+          "Project implementation and monitoring",
+          "Verification of emission reductions",
+          "Credit issuance to registry"
+        ],
+        "key_requirements": [
+          "Use of approved methodology",
+          "Additionality demonstration",
+          "Baseline and monitoring plan",
+          "Third-party validation and verification",
+          "Transparent reporting",
+          "Prevention of double counting",
+          "Permanence (for forestry projects)",
+          "Safeguards and co-benefits"
+        ],
+        "quality_standards": [
+          "ICVCM (Integrity Council for Voluntary Carbon Markets) - provides CCP labels for high-integrity credits",
+          "VCMI (Voluntary Carbon Markets Integrity Initiative)"
+        ]
+      }
+    },
+    "market_comparison": {
+      "voluntary_vs_compliance": {
+        "regulatory_framework": {
+          "compliance": "Government-mandated, legally binding",
+          "voluntary": "Optional, corporate social responsibility driven"
+        },
+        "participation": {
+          "compliance": "Required by law for covered entities",
+          "voluntary": "Optional for companies and individuals"
+        },
+        "mechanism": {
+          "compliance": "Cap-and-trade or carbon tax",
+          "voluntary": "Project-based carbon offsets"
+        },
+        "pricing_2024": {
+          "compliance": "€80-90/ton (EU ETS), $38-40/ton (California), $20/ton (RGGI)",
+          "voluntary": "$4-20/ton depending on project type and quality"
+        },
+        "emissions_coverage": {
+          "compliance": "20% of global emissions",
+          "voluntary": "Less than 1% of global emissions"
+        },
+        "primary_goal": {
+          "compliance": "Enforce emission reduction targets",
+          "voluntary": "Finance individual projects, corporate sustainability goals"
+        },
+        "market_dynamics_2024": {
+          "compliance": "Expansion and record-high prices",
+          "voluntary": "Focus on quality, decreased trading volumes, lower valuations"
+        }
+      }
+    },
+    "eligible_project_types": {
+      "renewable_energy": [
+        "Solar photovoltaic",
+        "Wind power",
+        "Hydroelectric",
+        "Geothermal",
+        "Biomass energy",
+        "Tidal and wave energy"
+      ],
+      "energy_efficiency": [
+        "Industrial energy efficiency",
+        "Building retrofits",
+        "Efficient lighting",
+        "Improved cookstoves",
+        "District heating and cooling"
+      ],
+      "forestry_and_land_use": [
+        "REDD+ (avoided deforestation)",
+        "Afforestation and reforestation",
+        "Improved forest management",
+        "Agroforestry",
+        "Soil carbon sequestration",
+        "Wetland restoration"
+      ],
+      "waste_management": [
+        "Landfill gas capture",
+        "Composting",
+        "Waste-to-energy",
+        "Recycling programs",
+        "Wastewater treatment"
+      ],
+      "transportation": [
+        "Electric vehicle infrastructure",
+        "Public transportation expansion",
+        "Bike-sharing programs",
+        "Fuel switching"
+      ],
+      "industrial_processes": [
+        "Cement production efficiency",
+        "Chemical process improvements",
+        "Refrigerant destruction",
+        "Fuel switching",
+        "Carbon capture and storage"
+      ],
+      "agriculture": [
+        "Improved livestock management",
+        "Rice cultivation methods",
+        "Precision agriculture",
+        "Organic farming practices"
+      ]
+    },
+    "historical_trends": {
+      "compliance_markets": [
+        {
+          "year": 2023,
+          "eu_ets_average": 83,
+          "currency": "EUR",
+          "notes": "Prices declined from earlier highs"
+        },
+        {
+          "year": 2024,
+          "eu_ets_average": 65,
+          "currency": "EUR",
+          "range": "80-90 EUR",
+          "notes": "Continued volatility, policy uncertainty"
+        },
+        {
+          "year": 2025,
+          "eu_ets_current": 80.41,
+          "currency": "EUR",
+          "date": "2024-11-21",
+          "trend": "+16.08% year-over-year, +2.49% month-over-month"
+        }
+      ],
+      "voluntary_markets": [
+        {
+          "year": 2023,
+          "notes": "Price slump, market uncertainty, integrity concerns"
+        },
+        {
+          "year": 2024,
+          "average_price": 4.00,
+          "currency": "USD",
+          "notes": "Challenging year with decreased trading volumes, focus on quality and integrity",
+          "verra_market_share": "63% of retirements"
+        }
+      ],
+      "long_term_projections": {
+        "2050_forecast": 238,
+        "currency": "USD",
+        "source": "BloombergNEF",
+        "notes": "Projected carbon credit price by 2050"
+      }
+    },
+    "market_challenges_2024": {
+      "voluntary_markets": [
+        "Regulatory uncertainty",
+        "Integrity and quality concerns",
+        "Decreased trading volumes",
+        "Lower valuations across many project types",
+        "Renewable energy methodologies not approved by ICVCM",
+        "Criticism over additionality and permanence"
+      ],
+      "compliance_markets": [
+        "Policy volatility affecting prices",
+        "Implementation challenges for ambitious targets",
+        "Market linkage coordination (California-Quebec-Washington)",
+        "Balancing cost containment with emission reduction goals"
+      ]
+    },
+    "key_registries": [
+      {
+        "name": "Verra Registry",
+        "standard": "VCS",
+        "credits_issued": "1.3B+ VCUs",
+        "projects": "3,400+",
+        "countries": "132+"
+      },
+      {
+        "name": "Gold Standard Impact Registry",
+        "standard": "Gold Standard",
+        "credits_issued": "445M tonnes CO2e reduced/removed",
+        "projects": "4,385",
+        "countries": "114"
+      },
+      {
+        "name": "CDM Registry",
+        "standard": "CDM",
+        "credit_type": "CERs",
+        "status": "Transitioning to Article 6.4"
+      },
+      {
+        "name": "EU ETS Registry",
+        "standard": "EU ETS",
+        "credit_type": "EUAs"
+      }
+    ]
+  }
+}

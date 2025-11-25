@@ -1,0 +1,79 @@
+{
+  "source": "DFI Compliance Standards Research",
+  "collected_at": "2025-11-25T00:00:00Z",
+  "standards": [
+    {
+      "name": "EBRD Environmental and Social Policy",
+      "category": "Environmental & Social",
+      "issuing_body": "EBRD",
+      "version": "2024",
+      "description": "The EBRD Environmental and Social Policy sets out mandatory Performance Requirements for all EBRD investments. It covers environmental assessment, labor conditions, pollution prevention, community health and safety, land acquisition, biodiversity conservation, indigenous peoples, and cultural heritage.",
+      "key_requirements": [
+        "Environmental and Social Impact Assessment",
+        "Stakeholder Engagement Plan",
+        "Labor and Working Conditions Compliance",
+        "Pollution Prevention and Abatement",
+        "Community Health, Safety and Security",
+        "Biodiversity Conservation",
+        "Indigenous Peoples Protection",
+        "Cultural Heritage Protection",
+        "Financial Intermediaries Requirements"
+      ],
+      "applicability": "All EBRD-financed projects",
+      "url": "https://www.ebrd.com/what-we-do/strategies-and-policies/environmental-and-social-policy-esp"
+    },
+    {
+      "name": "IFC Performance Standards",
+      "category": "Environmental & Social",
+      "issuing_body": "IFC/World Bank Group",
+      "version": "2012",
+      "description": "The IFC Performance Standards define clients' responsibilities for managing their environmental and social risks. The standards are widely adopted by financial institutions globally and are considered the gold standard for sustainable finance.",
+      "key_requirements": [
+        "PS1: Assessment and Management of Environmental and Social Risks and Impacts",
+        "PS2: Labor and Working Conditions",
+        "PS3: Resource Efficiency and Pollution Prevention",
+        "PS4: Community Health, Safety, and Security",
+        "PS5: Land Acquisition and Involuntary Resettlement",
+        "PS6: Biodiversity Conservation and Sustainable Management of Living Natural Resources",
+        "PS7: Indigenous Peoples",
+        "PS8: Cultural Heritage"
+      ],
+      "applicability": "All IFC investments and projects using IFC standards",
+      "url": "https://www.ifc.org/performancestandards"
+    },
+    {
+      "name": "EU Taxonomy for Sustainable Activities",
+      "category": "Climate & Sustainability",
+      "issuing_body": "European Commission",
+      "version": "2023",
+      "description": "Classification system establishing a list of environmentally sustainable economic activities to help scale up sustainable investment and implement the European Green Deal. Sets performance thresholds for economic activities to be considered environmentally sustainable.",
+      "key_requirements": [
+        "Substantial contribution to climate mitigation or adaptation",
+        "Do no significant harm to other environmental objectives",
+        "Compliance with minimum social safeguards",
+        "Technical screening criteria compliance",
+        "Disclosure and reporting requirements"
+      ],
+      "applicability": "EU-based projects and companies reporting under NFRD/CSRD",
+      "url": "https://finance.ec.europa.eu/sustainable-finance/tools-and-standards/eu-taxonomy-sustainable-activities"
+    },
+    {
+      "name": "Equator Principles",
+      "category": "Project Finance",
+      "issuing_body": "Equator Principles Association",
+      "version": "EP4 (2020)",
+      "description": "Risk management framework adopted by financial institutions for determining, assessing and managing environmental and social risk in project finance. Based on IFC Performance Standards and used globally for project finance transactions.",
+      "key_requirements": [
+        "Environmental and Social Assessment",
+        "Stakeholder Engagement throughout project lifecycle",
+        "Management System and Plans",
+        "Independent Review",
+        "Grievance Mechanism",
+        "Independent Monitoring and Reporting",
+        "Climate Change Risk Assessment"
+      ],
+      "applicability": "Project finance transactions above $10 million",
+      "url": "https://equator-principles.com/"
+    }
+  ]
+}

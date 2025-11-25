@@ -1,0 +1,107 @@
+{
+  "source": "EBRD (European Bank for Reconstruction and Development)",
+  "collected_at": "2025-11-25T00:00:00Z",
+  "projects": [
+    {
+      "name": "Morocco Solar Power Complex 500MW",
+      "sponsor": "ACWA Power",
+      "country": "Morocco",
+      "sector": "renewable_energy",
+      "total_value": 850000000,
+      "currency": "USD",
+      "dfi_partners": [
+        {
+          "name": "EBRD",
+          "commitment": 200000000,
+          "status": "approved"
+        },
+        {
+          "name": "IFC",
+          "commitment": 150000000,
+          "status": "approved"
+        }
+      ],
+      "status": "active",
+      "description": "Development of a 500MW concentrated solar power complex in Morocco with molten salt storage technology. The project will contribute to Morocco's renewable energy targets and reduce carbon emissions by approximately 800,000 tons per year.",
+      "location": {
+        "latitude": 30.9335,
+        "longitude": -6.8704,
+        "address": "Ouarzazate, Morocco"
+      },
+      "timeline": {
+        "start_date": "2023-01-15",
+        "completion_date": "2026-12-31",
+        "milestones": [
+          {
+            "name": "Financial Close",
+            "date": "2023-03-01",
+            "status": "completed"
+          },
+          {
+            "name": "Construction Start",
+            "date": "2023-06-01",
+            "status": "completed"
+          },
+          {
+            "name": "First Power Generation",
+            "date": "2025-09-01",
+            "status": "pending"
+          }
+        ]
+      },
+      "stakeholders": [
+        {
+          "name": "Ministry of Energy and Minerals",
+          "role": "Government Authority",
+          "organization": "Government of Morocco"
+        },
+        {
+          "name": "MASEN",
+          "role": "Project Developer",
+          "organization": "Moroccan Agency for Sustainable Energy"
+        }
+      ],
+      "metadata": {
+        "capacity_mw": 500,
+        "technology": "Concentrated Solar Power with Storage",
+        "annual_generation_gwh": 1100,
+        "carbon_reduction_tons": 800000,
+        "jobs_created": 1200
+      }
+    },
+    {
+      "name": "Turkey Wind Farm Portfolio 300MW",
+      "sponsor": "Polat Energy",
+      "country": "Turkey",
+      "sector": "renewable_energy",
+      "total_value": 420000000,
+      "currency": "USD",
+      "dfi_partners": [
+        {
+          "name": "EBRD",
+          "commitment": 120000000,
+          "status": "approved"
+        }
+      ],
+      "status": "active",
+      "description": "Portfolio of three onshore wind farms totaling 300MW capacity across the Aegean region. The project supports Turkey's transition to renewable energy and includes local manufacturing commitments.",
+      "location": {
+        "latitude": 39.0000,
+        "longitude": 27.0000,
+        "address": "Aegean Region, Turkey"
+      },
+      "timeline": {
+        "start_date": "2024-01-01",
+        "completion_date": "2026-06-30",
+        "milestones": []
+      },
+      "stakeholders": [],
+      "metadata": {
+        "capacity_mw": 300,
+        "technology": "Onshore Wind",
+        "annual_generation_gwh": 900,
+        "turbines": 120
+      }
+    }
+  ]
+}

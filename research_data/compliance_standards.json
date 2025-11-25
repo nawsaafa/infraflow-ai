@@ -1,0 +1,752 @@
+{
+  "metadata": {
+    "collection_date": "2025-11-25",
+    "last_updated": "2025-11-25",
+    "scope": "Infrastructure Finance Compliance Standards",
+    "sources": "Official organizational websites and publications",
+    "verification_status": "Verified with latest 2024 publications and web sources",
+    "total_frameworks": 5,
+    "key_updates_2024": [
+      "EBRD ESP 2024 approved and effective October 2024 (renamed PRs to ESRs)",
+      "EU Taxonomy full implementation of all 6 environmental objectives as of January 2024",
+      "IFC Performance Standards remain current (2012 edition with 2021 Guidance Notes updates)",
+      "Equator Principles EP4 remains current framework (October 2020)",
+      "UN PRI continues ongoing updates to reporting framework"
+    ]
+  },
+  "compliance_standards": [
+    {
+      "name": "EBRD Environmental and Social Policy 2024",
+      "organization": "European Bank for Reconstruction and Development (EBRD)",
+      "version": "2024",
+      "effective_date": "October 2024",
+      "category": "Environmental and Social Risk Management",
+      "performance_requirements": [
+        {
+          "code": "ESR 1",
+          "name": "Assessment and management of environmental and social risks and impacts",
+          "key_requirements": [
+            "Environmental and social assessment",
+            "Management systems and programs",
+            "Organizational capacity and competency",
+            "Emergency preparedness and response",
+            "Monitoring and review"
+          ]
+        },
+        {
+          "code": "ESR 2",
+          "name": "Labour and working conditions",
+          "key_requirements": [
+            "Working conditions and management of worker relationships",
+            "Protecting the workforce",
+            "Occupational health and safety",
+            "Workers engaged by third parties",
+            "Supply chain"
+          ]
+        },
+        {
+          "code": "ESR 3",
+          "name": "Resource efficiency and pollution prevention and control",
+          "key_requirements": [
+            "Resource efficiency",
+            "Pollution prevention",
+            "Waste management",
+            "Hazardous materials management",
+            "Pesticide use and management"
+          ]
+        },
+        {
+          "code": "ESR 4",
+          "name": "Health, safety and security",
+          "key_requirements": [
+            "Community health and safety",
+            "Security personnel",
+            "Traffic and road safety",
+            "Disease prevention",
+            "Emergency preparedness and response"
+          ]
+        },
+        {
+          "code": "ESR 5",
+          "name": "Land acquisition, restrictions on land use and involuntary resettlement",
+          "key_requirements": [
+            "Avoidance or minimization of displacement",
+            "Consultation and disclosure",
+            "Resettlement planning and implementation",
+            "Livelihood restoration",
+            "Grievance mechanism"
+          ]
+        },
+        {
+          "code": "ESR 6",
+          "name": "Biodiversity conservation and sustainable management of living natural resources",
+          "key_requirements": [
+            "Protection and conservation of biodiversity",
+            "Sustainable management of living natural resources",
+            "Legally protected and internationally recognized areas",
+            "Invasive alien species",
+            "Critical habitat protection"
+          ]
+        },
+        {
+          "code": "ESR 7",
+          "name": "Indigenous Peoples",
+          "key_requirements": [
+            "Avoidance of adverse impacts",
+            "Free, prior and informed consent (FPIC)",
+            "Cultural heritage protection",
+            "Benefit sharing",
+            "Affected communities engagement"
+          ]
+        },
+        {
+          "code": "ESR 8",
+          "name": "Cultural heritage",
+          "key_requirements": [
+            "Protection of cultural heritage",
+            "Consultation with affected communities",
+            "Chance find procedures",
+            "Critical cultural heritage",
+            "Commercialization of cultural heritage"
+          ]
+        },
+        {
+          "code": "ESR 9",
+          "name": "Financial intermediaries",
+          "key_requirements": [
+            "Environmental and social management system",
+            "Environmental and social appraisal",
+            "Monitoring and supervision",
+            "External communication and grievance mechanism",
+            "Organizational capacity"
+          ]
+        },
+        {
+          "code": "ESR 10",
+          "name": "Stakeholder engagement",
+          "key_requirements": [
+            "Stakeholder identification and analysis",
+            "Information disclosure",
+            "Stakeholder consultation",
+            "Grievance mechanism",
+            "Ongoing reporting to affected communities"
+          ]
+        }
+      ],
+      "applicable_sectors": [
+        "Energy",
+        "Infrastructure",
+        "Financial institutions",
+        "Manufacturing",
+        "Agribusiness",
+        "Natural resources"
+      ],
+      "key_2024_enhancements": [
+        "More robust, risk-based approach to project assessment",
+        "Advanced commitment to human rights and social inclusion",
+        "Greater emphasis on safeguarding vulnerable populations",
+        "Enhanced gender equality promotion",
+        "Renamed Performance Requirements (PRs) to Environmental and Social Requirements (ESRs)",
+        "Strengthened stakeholder engagement requirements",
+        "Integration of climate change considerations across all ESRs"
+      ],
+      "documentation_url": "https://www.ebrd.com/news/publications/policies/environmental-and-social-policy-esp.html",
+      "detailed_esr_urls": {
+        "esr_1": "https://www.ebrd.com/content/dam/ebrd_dxp/assets/pdfs/environment---sustainability/environmental-and-social-policy-esp/esp-2024/EBRD-Environmental-and-Social-Policy-2024-ESR-1.pdf",
+        "esr_10": "https://www.ebrd.com/content/dam/ebrd_dxp/assets/pdfs/environment---sustainability/environmental-and-social-policy-esp/esp-2024/EBRD-Environmental-and-Social-Policy-2024-ESR-10.pdf",
+        "performance_requirements_overview": "https://www.ebrd.com/home/who-we-are/ebrd-values/ebrd-environmental-social-sustainability/reports-and-policies/performance-requirements.html"
+      }
+    },
+    {
+      "name": "IFC Performance Standards on Environmental and Social Sustainability",
+      "organization": "International Finance Corporation (IFC)",
+      "version": "2012 Edition",
+      "effective_date": "January 1, 2012",
+      "last_updated": "June 14, 2021 (Guidance Notes)",
+      "category": "Environmental and Social Sustainability Framework",
+      "performance_standards": [
+        {
+          "code": "PS 1",
+          "name": "Assessment and Management of Environmental and Social Risks and Impacts",
+          "key_requirements": [
+            "Environmental and social assessment",
+            "Management program development",
+            "Organizational capacity and competency",
+            "Emergency preparedness and response",
+            "Monitoring and review",
+            "Stakeholder engagement",
+            "External communications and grievance mechanisms"
+          ]
+        },
+        {
+          "code": "PS 2",
+          "name": "Labor and Working Conditions",
+          "key_requirements": [
+            "Working conditions and management of worker relationships",
+            "Protecting the workforce (no child labor, forced labor, or trafficking)",
+            "Occupational health and safety",
+            "Workers engaged by third parties",
+            "Supply chain assessment for high-risk areas",
+            "Retrenchment"
+          ]
+        },
+        {
+          "code": "PS 3",
+          "name": "Resource Efficiency and Pollution Prevention",
+          "key_requirements": [
+            "Resource efficiency and cleaner production",
+            "Greenhouse gas emissions reduction",
+            "Water consumption reduction",
+            "Waste management",
+            "Hazardous materials management",
+            "Pesticide use and management"
+          ]
+        },
+        {
+          "code": "PS 4",
+          "name": "Community Health, Safety, and Security",
+          "key_requirements": [
+            "Community health and safety",
+            "Design and safety of infrastructure and equipment",
+            "Hazardous materials management and safety",
+            "Ecosystem services",
+            "Community exposure to disease",
+            "Emergency preparedness and response",
+            "Security personnel requirements"
+          ]
+        },
+        {
+          "code": "PS 5",
+          "name": "Land Acquisition and Involuntary Resettlement",
+          "key_requirements": [
+            "Avoidance or minimization of displacement",
+            "Census and socio-economic baseline studies",
+            "Compensation and benefits for displaced persons",
+            "Consultation and participation",
+            "Grievance mechanism",
+            "Resettlement planning and implementation",
+            "Livelihood improvement or restoration"
+          ]
+        },
+        {
+          "code": "PS 6",
+          "name": "Biodiversity Conservation and Sustainable Management of Living Natural Resources",
+          "key_requirements": [
+            "Protection and conservation of biodiversity",
+            "Sustainable management of living natural resources",
+            "Management of ecosystem services",
+            "Legally protected areas considerations",
+            "Invasive alien species prevention",
+            "Critical habitat assessment and protection",
+            "Primary suppliers sustainability requirements"
+          ]
+        },
+        {
+          "code": "PS 7",
+          "name": "Indigenous Peoples",
+          "key_requirements": [
+            "Avoidance of adverse impacts on Indigenous Peoples",
+            "Free, Prior, and Informed Consent (FPIC) in specific circumstances",
+            "Culturally appropriate development benefits",
+            "Cultural heritage and sacred sites protection",
+            "Commercial development of cultural resources",
+            "Physical displacement and resettlement"
+          ]
+        },
+        {
+          "code": "PS 8",
+          "name": "Cultural Heritage",
+          "key_requirements": [
+            "Protection of cultural heritage in project area",
+            "Consultation with affected communities",
+            "Chance finds procedures",
+            "Critical cultural heritage protection",
+            "Removal of replicable cultural heritage",
+            "Commercially exploiting cultural heritage",
+            "Access to cultural heritage by affected communities"
+          ]
+        }
+      ],
+      "applicable_sectors": [
+        "All private sector projects",
+        "Financial intermediaries",
+        "Infrastructure",
+        "Energy",
+        "Manufacturing",
+        "Agribusiness",
+        "Services",
+        "Mining",
+        "Oil and gas"
+      ],
+      "languages_available": [
+        "English",
+        "French",
+        "Spanish",
+        "Portuguese",
+        "Turkish",
+        "Russian",
+        "Simplified Chinese",
+        "Arabic",
+        "Burmese",
+        "Vietnamese"
+      ],
+      "documentation_url": "https://www.ifc.org/en/insights-reports/2012/ifc-performance-standards",
+      "additional_resources": {
+        "performance_standards_pdf": "https://www.ifc.org/content/dam/ifc/doc/2023/ifc-performance-standards-2012-en.pdf",
+        "guidance_notes": "https://www.ifc.org/en/insights-reports/2012/publications-policy-gn-2012",
+        "sustainability_framework": "https://www.ifc.org/wps/wcm/connect/topics_ext_content/ifc_external_corporate_site/sustainability-at-ifc/policies-standards/ifcsustainabilityframework_2012"
+      },
+      "key_features": [
+        "De facto global standard for private sector project environmental and social risk management",
+        "Comprehensive framework covering all major E&S aspects",
+        "Applicable to all IFC investment and advisory clients since January 1, 2012",
+        "Widely adopted by development finance institutions and commercial banks",
+        "Available in 11 languages for global accessibility",
+        "Supported by detailed Guidance Notes for implementation"
+      ]
+    },
+    {
+      "name": "EU Taxonomy for Sustainable Activities",
+      "organization": "European Commission",
+      "regulation": "Regulation (EU) 2020/852",
+      "version": "2020 (with delegated acts updated through 2024)",
+      "effective_date": "July 12, 2020",
+      "category": "Sustainable Finance Classification System",
+      "environmental_objectives": [
+        {
+          "code": "Objective 1",
+          "name": "Climate change mitigation",
+          "status": "Technical screening criteria adopted (Climate Delegated Act)"
+        },
+        {
+          "code": "Objective 2",
+          "name": "Climate change adaptation",
+          "status": "Technical screening criteria adopted (Climate Delegated Act)"
+        },
+        {
+          "code": "Objective 3",
+          "name": "Sustainable use and protection of water and marine resources",
+          "status": "Technical screening criteria adopted (Environmental Delegated Act, effective January 2024)"
+        },
+        {
+          "code": "Objective 4",
+          "name": "Transition to a circular economy",
+          "status": "Technical screening criteria adopted (Environmental Delegated Act, effective January 2024)"
+        },
+        {
+          "code": "Objective 5",
+          "name": "Pollution prevention and control",
+          "status": "Technical screening criteria adopted (Environmental Delegated Act, effective January 2024)"
+        },
+        {
+          "code": "Objective 6",
+          "name": "Protection and restoration of biodiversity and ecosystems",
+          "status": "Technical screening criteria adopted (Environmental Delegated Act, effective January 2024)"
+        }
+      ],
+      "key_requirements": [
+        "Economic activity must substantially contribute to at least one of the six environmental objectives",
+        "Activity must not significantly harm any of the other environmental objectives (DNSH principle)",
+        "Activity must comply with minimum social safeguards",
+        "Activity must meet technical screening criteria established by Commission delegated acts",
+        "Activities must align with net-zero trajectory by 2050",
+        "Financial and non-financial undertakings must disclose proportion of environmentally sustainable activities",
+        "Mandatory disclosure requirements for large companies and financial market participants"
+      ],
+      "applicable_sectors": [
+        "Energy",
+        "Manufacturing",
+        "Transport",
+        "Construction and real estate",
+        "Water supply and waste management",
+        "Information and communication",
+        "Agriculture, forestry, and fishing",
+        "Mining and quarrying"
+      ],
+      "covered_activities": {
+        "climate_delegated_act": "Climate change mitigation and adaptation activities",
+        "environmental_delegated_act_2024": {
+          "water_marine_resources": "6 activities across 4 sectors",
+          "circular_economy": "21 activities across 5 sectors",
+          "pollution_prevention": "6 activities across 2 sectors",
+          "biodiversity": "2 activities across 2 sectors"
+        },
+        "complementary_climate_delegated_act": "Nuclear and gas energy activities (under strict conditions, July 2022)"
+      },
+      "assessment_tools": [
+        "EU Taxonomy Compass (visual representation of sectors and activities)",
+        "EU Taxonomy Calculator (step-by-step reporting guidance)",
+        "FAQs Repository (interpretation questions and answers)",
+        "User Guide (non-expert guidance)"
+      ],
+      "reporting_timeline": {
+        "eligibility_reporting": "From January 2024 for new Environmental Delegated Act activities",
+        "alignment_reporting": "From January 2025 for new Environmental Delegated Act activities"
+      },
+      "documentation_url": "https://finance.ec.europa.eu/sustainable-finance/tools-and-standards/eu-taxonomy-sustainable-activities_en",
+      "november_2024_updates": {
+        "description": "Commission published FAQs to support implementation and reduce administrative burden",
+        "announcement_url": "https://finance.ec.europa.eu/news/commission-provides-further-clarifications-eu-taxonomy-sustainable-economic-activities-2024-11-29_en",
+        "focus_areas": [
+          "Simplification agenda to reduce compliance burden",
+          "Clarifications on technical screening criteria",
+          "Support for stakeholder implementation",
+          "Enhanced guidance for reporting entities"
+        ]
+      },
+      "key_2024_features": [
+        "Full implementation of all six environmental objectives",
+        "Expanded reporting obligations for remaining four objectives (water, circular economy, pollution, biodiversity)",
+        "Continued refinement of technical screening criteria",
+        "Integration with Corporate Sustainability Reporting Directive (CSRD)",
+        "Growing use as benchmark for sustainable finance products",
+        "Prevention of greenwashing through clear classification system"
+      ]
+    },
+    {
+      "name": "Equator Principles",
+      "organization": "Equator Principles Association",
+      "version": "EP4 (Fourth Edition)",
+      "effective_date": "October 1, 2020",
+      "category": "Project Finance Environmental and Social Risk Management Framework",
+      "principles": [
+        {
+          "code": "Principle 1",
+          "name": "Review and Categorisation",
+          "description": "EPFIs review and categorise proposed projects into Category A (high risk), Category B (medium risk), or Category C (low risk) based on environmental and social risks"
+        },
+        {
+          "code": "Principle 2",
+          "name": "Environmental and Social Assessment",
+          "description": "Borrower must conduct Environmental and Social Assessment (ESA) addressing relevant risks and impacts. EP4 requires dedicated Climate Change Risk Assessment and Human Rights Assessment for Category A and some Category B projects"
+        },
+        {
+          "code": "Principle 3",
+          "name": "Applicable Environmental and Social Standards",
+          "description": "Assessment process must address compliance with host country laws, applicable international standards including IFC Performance Standards and World Bank Group EHS Guidelines (for both Designated and Non-Designated Countries under EP4)"
+        },
+        {
+          "code": "Principle 4",
+          "name": "Environmental and Social Management System and Equator Principles Action Plan",
+          "description": "For Category A and B projects, borrower must develop Environmental and Social Management System (ESMS) and Environmental and Social Management Plan (ESMP) to address identified risks"
+        },
+        {
+          "code": "Principle 5",
+          "name": "Stakeholder Engagement",
+          "description": "Borrower must demonstrate effective stakeholder engagement as ongoing process involving affected communities. For Category A and some Category B projects, requires free, prior and informed consultation"
+        },
+        {
+          "code": "Principle 6",
+          "name": "Grievance Mechanism",
+          "description": "ESMS must include grievance mechanism to receive and facilitate resolution of concerns about environmental and social performance. Must be scaled to risks and adverse impacts of project"
+        },
+        {
+          "code": "Principle 7",
+          "name": "Independent Review",
+          "description": "For Category A and B projects, independent Environmental and Social Consultant reviews Assessment Documentation and proposes action plan for compliance with Equator Principles"
+        },
+        {
+          "code": "Principle 8",
+          "name": "Covenants",
+          "description": "EPFI includes covenants in financing documentation requiring compliance with ESMP, remediation of non-compliance, provision of periodic reports, and decommissioning plans where applicable"
+        },
+        {
+          "code": "Principle 9",
+          "name": "Independent Monitoring and Reporting",
+          "description": "For Category A and some Category B projects, borrower retains independent Environmental and Social Consultant to verify monitoring information. EPFI requires periodic reports on compliance"
+        },
+        {
+          "code": "Principle 10",
+          "name": "Reporting and Transparency",
+          "description": "EPFIs must report publicly at least annually on Equator Principles implementation, including transactions reaching Financial Close. Borrowers must generate project-specific sustainability reports"
+        }
+      ],
+      "project_categories": [
+        {
+          "category": "A",
+          "risk_level": "High",
+          "description": "Projects with potential significant adverse environmental and social risks and/or impacts that are diverse, irreversible, or unprecedented"
+        },
+        {
+          "category": "B",
+          "risk_level": "Medium",
+          "description": "Projects with potential limited adverse environmental and social risks and/or impacts that are few in number, generally site-specific, largely reversible and readily addressed through mitigation measures"
+        },
+        {
+          "category": "C",
+          "risk_level": "Low",
+          "description": "Projects with minimal or no adverse environmental and social risks and/or impacts"
+        }
+      ],
+      "applicable_sectors": [
+        "Mining",
+        "Infrastructure (transport, power, water)",
+        "Oil and gas",
+        "Manufacturing",
+        "Agribusiness",
+        "Energy (including renewables)",
+        "Telecommunications"
+      ],
+      "key_ep4_enhancements": [
+        "Dedicated Climate Change Risk Assessment requirement",
+        "Dedicated Human Rights Assessment requirement",
+        "Expanded application to both Designated and Non-Designated Countries",
+        "Enhanced requirements for sensitive projects",
+        "Broader coverage of financial instruments and lower thresholds"
+      ],
+      "applicable_financial_products": [
+        "Project Finance Advisory Services",
+        "Project Finance (including project finance loans and project-related corporate loans)",
+        "Project-Related Refinance",
+        "Project-Related Acquisition Finance",
+        "Project-Related Bridge Loans"
+      ],
+      "documentation_url": "https://equator-principles.com/",
+      "ep4_pdf_url": "https://equator-principles.com/app/uploads/The-Equator-Principles_EP4_July2020.pdf",
+      "adoption_statistics": {
+        "total_epfis": 110,
+        "countries": 38,
+        "description": "110 Equator Principles Financial Institutions (EPFIs) in 38 countries have officially adopted the Equator Principles"
+      },
+      "ep4_key_innovations": [
+        "Dedicated Climate Change Risk Assessment aligned with TCFD recommendations",
+        "Assessment of both physical risks (direct damage, supply chain impacts) and transition risks (policy, legal, reputational)",
+        "Dedicated Human Rights Assessment requirement",
+        "Enhanced Indigenous Peoples' rights protection and FPIC requirements",
+        "Application of IFC Performance Standards to both Designated and Non-Designated Countries",
+        "Expanded scope of covered financial products",
+        "Strengthened requirements for sensitive projects in high-income OECD nations",
+        "Enhanced reporting and transparency obligations"
+      ],
+      "climate_risk_assessment_requirements": {
+        "physical_risks": [
+          "Direct damage to infrastructure",
+          "Indirect impacts to supply chains",
+          "Climate-related operational disruptions"
+        ],
+        "transition_risks": [
+          "Policy and legal risks from national policy changes",
+          "Market risks from shifting demand",
+          "Technology risks from emerging solutions",
+          "Reputational risks from stakeholder perceptions"
+        ],
+        "alignment": "Task Force on Climate-related Financial Disclosures (TCFD) recommendations"
+      }
+    },
+    {
+      "name": "UN Principles for Responsible Investment",
+      "organization": "United Nations-supported Principles for Responsible Investment (PRI)",
+      "version": "2006 (established), ongoing updates",
+      "effective_date": "April 2006",
+      "category": "Responsible Investment Framework",
+      "principles": [
+        {
+          "code": "Principle 1",
+          "name": "ESG Integration",
+          "description": "We will incorporate ESG (environmental, social, and governance) issues into investment analysis and decision-making processes"
+        },
+        {
+          "code": "Principle 2",
+          "name": "Active Ownership",
+          "description": "We will be active owners and incorporate ESG issues into our ownership policies and practices"
+        },
+        {
+          "code": "Principle 3",
+          "name": "ESG Disclosure",
+          "description": "We will seek appropriate disclosure on ESG issues by the entities in which we invest"
+        },
+        {
+          "code": "Principle 4",
+          "name": "Industry Promotion",
+          "description": "We will promote acceptance and implementation of the Principles within the investment industry"
+        },
+        {
+          "code": "Principle 5",
+          "name": "Collaboration",
+          "description": "We will work together to enhance our effectiveness in implementing the Principles"
+        },
+        {
+          "code": "Principle 6",
+          "name": "Reporting",
+          "description": "We will each report on our activities and progress toward implementing the Principles"
+        }
+      ],
+      "key_requirements": [
+        "Annual reporting through PRI Reporting Framework",
+        "Transparency on responsible investment activities and progress",
+        "Integration of ESG factors into investment decision-making",
+        "Active ownership and stewardship practices",
+        "Engagement with investee companies on ESG issues",
+        "Collaboration with other signatories and stakeholders",
+        "Continuous improvement in responsible investment practices"
+      ],
+      "applicable_asset_classes": [
+        "Listed equity",
+        "Fixed income",
+        "Private equity",
+        "Real estate",
+        "Infrastructure",
+        "Hedge funds",
+        "Commodities and derivatives"
+      ],
+      "signatory_types": [
+        "Asset owners (pension funds, insurance companies, sovereign wealth funds)",
+        "Investment managers",
+        "Service providers (consultants, data providers, research firms)"
+      ],
+      "reporting_framework": {
+        "name": "PRI Reporting and Assessment Framework",
+        "frequency": "Annual",
+        "components": [
+          "Signatory reporting on responsible investment activities",
+          "Assessment of implementation progress",
+          "Transparency reports published publicly",
+          "Feedback and improvement guidance"
+        ]
+      },
+      "compliance_characteristics": [
+        "Voluntary and aspirational framework",
+        "No minimum entry requirements",
+        "No absolute performance standards",
+        "Obligation to report annually on implementation extent",
+        "Focus on continuous improvement and transparency"
+      ],
+      "documentation_url": "https://www.unpri.org/"
+    }
+  ],
+  "cross_references": {
+    "alignment_notes": [
+      "IFC Performance Standards are widely referenced by Equator Principles as applicable environmental and social standards",
+      "EBRD Environmental and Social Requirements align closely with IFC Performance Standards structure",
+      "EU Taxonomy minimum social safeguards reference international standards including IFC PS",
+      "Equator Principles EP4 requires application of IFC Performance Standards for both Designated and Non-Designated Countries",
+      "UN PRI signatories often reference other frameworks (EBRD, IFC, EP) in their responsible investment policies"
+    ],
+    "infrastructure_finance_relevance": [
+      "All frameworks are extensively used in infrastructure project finance",
+      "Equator Principles specifically designed for project finance transactions",
+      "IFC Performance Standards are de facto standard for infrastructure projects globally",
+      "EBRD standards apply to infrastructure projects in emerging markets and transition economies",
+      "EU Taxonomy provides classification system for sustainable infrastructure investments",
+      "UN PRI principles guide institutional investors in infrastructure asset allocation"
+    ]
+  },
+  "sources": [
+    {
+      "framework": "EBRD Environmental and Social Policy 2024",
+      "url": "https://www.ebrd.com/news/publications/policies/environmental-and-social-policy-esp.html"
+    },
+    {
+      "framework": "IFC Performance Standards",
+      "url": "https://www.ifc.org/en/insights-reports/2012/ifc-performance-standards"
+    },
+    {
+      "framework": "EU Taxonomy for Sustainable Activities",
+      "url": "https://finance.ec.europa.eu/sustainable-finance/tools-and-standards/eu-taxonomy-sustainable-activities_en"
+    },
+    {
+      "framework": "Equator Principles",
+      "url": "https://equator-principles.com/"
+    },
+    {
+      "framework": "UN Principles for Responsible Investment",
+      "url": "https://www.unpri.org/"
+    }
+  ],
+  "web_research_sources_2024": {
+    "collection_date": "2025-11-25",
+    "ebrd_sources": [
+      {
+        "title": "Environmental and Social Policy 2024",
+        "url": "https://www.ebrd.com/home/news-and-events/publications/institutional-documents/environmental-and-social-policy-2024.html",
+        "relevance": "Official EBRD ESP 2024 publication page"
+      },
+      {
+        "title": "EBRD Environmental and Social Requirement 1",
+        "url": "https://www.ebrd.com/content/dam/ebrd_dxp/assets/pdfs/environment---sustainability/environmental-and-social-policy-esp/esp-2024/EBRD-Environmental-and-Social-Policy-2024-ESR-1.pdf",
+        "relevance": "Detailed ESR 1 requirements document"
+      },
+      {
+        "title": "EBRD Environmental and Social Requirement 10",
+        "url": "https://www.ebrd.com/content/dam/ebrd_dxp/assets/pdfs/environment---sustainability/environmental-and-social-policy-esp/esp-2024/EBRD-Environmental-and-Social-Policy-2024-ESR-10.pdf",
+        "relevance": "Detailed ESR 10 stakeholder engagement requirements"
+      },
+      {
+        "title": "Performance Requirements and Guidance",
+        "url": "https://www.ebrd.com/home/who-we-are/ebrd-values/ebrd-environmental-social-sustainability/reports-and-policies/performance-requirements.html",
+        "relevance": "Overview of EBRD performance requirements implementation"
+      },
+      {
+        "title": "EBRD approves 2024 Environmental and Social Policy",
+        "url": "https://www.ebrd.com/home/news-and-events/news/2024/ebrd-approves-2024-environmental-and-social-policy.html",
+        "relevance": "Official announcement of ESP 2024 approval"
+      }
+    ],
+    "ifc_sources": [
+      {
+        "title": "Performance Standards on Environmental and Social Sustainability",
+        "url": "https://www.ifc.org/en/insights-reports/2012/ifc-performance-standards",
+        "relevance": "Official IFC Performance Standards main page"
+      },
+      {
+        "title": "IFC Performance Standards 2012 PDF",
+        "url": "https://www.ifc.org/content/dam/ifc/doc/2023/ifc-performance-standards-2012-en.pdf",
+        "relevance": "Complete Performance Standards document"
+      },
+      {
+        "title": "Performance Standard 1: Assessment and Management",
+        "url": "https://www.ifc.org/en/insights-reports/2012/ifc-performance-standard-1",
+        "relevance": "Detailed PS1 requirements and guidance"
+      },
+      {
+        "title": "Guidance Notes to Performance Standards",
+        "url": "https://www.ifc.org/en/insights-reports/2012/publications-policy-gn-2012",
+        "relevance": "Implementation guidance for all 8 Performance Standards"
+      },
+      {
+        "title": "The 8 IFC Environmental and Social Performance Standards",
+        "url": "https://producepay.com/blog/the-8-ifc-environmental-and-social-performance-standards-you-need-to-know/",
+        "relevance": "Comprehensive overview of all 8 standards"
+      }
+    ],
+    "eu_taxonomy_sources": [
+      {
+        "title": "EU taxonomy for sustainable activities",
+        "url": "https://finance.ec.europa.eu/sustainable-finance/tools-and-standards/eu-taxonomy-sustainable-activities_en",
+        "relevance": "Official EU Taxonomy main page"
+      },
+      {
+        "title": "Commission provides further clarifications on EU taxonomy (November 2024)",
+        "url": "https://finance.ec.europa.eu/news/commission-provides-further-clarifications-eu-taxonomy-sustainable-economic-activities-2024-11-29_en",
+        "relevance": "Latest November 2024 updates and FAQs"
+      },
+      {
+        "title": "Taxonomy Regulation - Implementation and Delegated Acts",
+        "url": "https://finance.ec.europa.eu/regulation-and-supervision/financial-services-legislation/implementing-and-delegated-acts/taxonomy-regulation_en",
+        "relevance": "Regulatory framework and implementation details"
+      }
+    ],
+    "equator_principles_sources": [
+      {
+        "title": "Equator Principles Homepage",
+        "url": "https://equator-principles.com/",
+        "relevance": "Official Equator Principles Association website"
+      },
+      {
+        "title": "The Equator Principles EP4 (July 2020)",
+        "url": "https://equator-principles.com/app/uploads/The-Equator-Principles_EP4_July2020.pdf",
+        "relevance": "Complete EP4 framework document"
+      },
+      {
+        "title": "Project Finance, human rights and climate change: Updated Equator Principles 4",
+        "url": "https://www.whitecase.com/insight-alert/project-finance-human-rights-and-climate-change-updated-equator-principles-4-effect",
+        "relevance": "Analysis of EP4 updates and implications"
+      },
+      {
+        "title": "Equator Principles 4 enter into force: What will this mean in practice?",
+        "url": "https://www.nortonrosefulbright.com/en/knowledge/publications/3a6e7a7b/equator-principles-4-enter-into-force-what-will-this-mean-in-practice",
+        "relevance": "Practical implementation guidance for EP4"
+      }
+    ]
+  }
+}

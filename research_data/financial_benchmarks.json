@@ -1,0 +1,680 @@
+{
+  "metadata": {
+    "created_date": "2025-11-25",
+    "last_updated": "2025-11-25",
+    "version": "2.0",
+    "update_notes": "Enhanced with November 2025 web search data on IRR benchmarks, carbon prices, and risk premiums",
+    "data_sources": [
+      "World Bank Infrastructure Monitor 2024",
+      "IFC Project Finance Guidelines",
+      "Lazard LCOE Analysis 2024",
+      "S&P Global Infrastructure Ratings",
+      "IEA World Energy Investment 2024",
+      "NYU Stern Country Risk Premium Database",
+      "Global Infrastructure Hub - Infrastructure Monitor 2024",
+      "International Renewable Energy Agency (IRENA) 2024",
+      "BloombergNEF - Global Carbon Market Outlook 2024",
+      "African Development Bank Infrastructure Study",
+      "National Renewable Energy Laboratory (NREL)",
+      "Cambridge Associates Infrastructure Index",
+      "Moody's Analytics 14-year Infrastructure Investment Study",
+      "Banyan Infrastructure - Project Finance Metrics",
+      "KPMG Valuation Data Source"
+    ],
+    "notes": "All benchmarks are indicative ranges based on 2024-2025 market data. Actual project terms vary based on specific risk factors, jurisdiction, and market conditions."
+  },
+  "financial_benchmarks": {
+    "sectors": {
+      "renewable_energy": {
+        "solar_utility_scale": {
+          "irr_range": [7.5, 15],
+          "irr_by_region": {
+            "united_states": [7.5, 9.0],
+            "europe": [7.5, 12.0],
+            "australia": [10.0, 12.0],
+            "japan": [8.0, 10.0],
+            "india": [13.0, 15.0],
+            "brazil": [15.0, 15.0],
+            "south_africa": [15.0, 15.0]
+          },
+          "dscr_min": 1.3,
+          "dscr_typical": 1.4,
+          "ltv_max": 0.75,
+          "debt_equity_ratio": "60:40",
+          "payback_period_years": [6, 10],
+          "wacc_percent": 7.7,
+          "cost_of_equity_percent": 12.0,
+          "cost_of_debt_percent": 8.0
+        },
+        "wind_onshore": {
+          "irr_range": [7.5, 15],
+          "irr_with_ptc_us": 13.0,
+          "dscr_min": 1.3,
+          "dscr_typical": 1.4,
+          "ltv_max": 0.75,
+          "debt_equity_ratio": "60:40",
+          "payback_period_years": [6, 10],
+          "wacc_percent": 7.7,
+          "cost_of_equity_percent": 12.0,
+          "cost_of_debt_percent": 8.0
+        },
+        "wind_offshore": {
+          "irr_range": [8.0, 15],
+          "dscr_min": 1.4,
+          "ltv_max": 0.70,
+          "debt_equity_ratio": "60:40",
+          "payback_period_years": [8, 12]
+        },
+        "general_notes": {
+          "irr_emerging_markets": "Typically 3-7 percentage points higher than developed markets",
+          "dscr_lockup_covenant": 1.1,
+          "wacc_impact_on_lcoe": "WACC accounts for 20-50% of levelized cost of electricity"
+        }
+      },
+      "transport": {
+        "toll_roads": {
+          "irr_range": [8, 14],
+          "dscr_min": 1.4,
+          "dscr_strong": 2.0,
+          "dscr_typical_upgrade": 1.55,
+          "ltv_max": 0.75,
+          "payback_period_years": [10, 17],
+          "debt_equity_ratio": "70:30",
+          "notes": "Indian toll roads with cumulative DSCR >2.0x considered strong coverage"
+        },
+        "rail_infrastructure": {
+          "irr_range": [7, 12],
+          "dscr_min": 1.3,
+          "ltv_max": 0.75,
+          "payback_period_years": [12, 20],
+          "debt_equity_ratio": "70:30"
+        },
+        "airports": {
+          "irr_range": [8, 13],
+          "dscr_min": 1.4,
+          "ltv_max": 0.70,
+          "payback_period_years": [10, 15],
+          "debt_equity_ratio": "65:35"
+        },
+        "ports": {
+          "irr_range": [9, 14],
+          "dscr_min": 1.4,
+          "ltv_max": 0.70,
+          "payback_period_years": [8, 15],
+          "debt_equity_ratio": "65:35"
+        },
+        "sector_performance_2024": {
+          "ratings_affirmed_percent": 73,
+          "ratings_upgraded_percent": 21,
+          "ratings_downgraded_percent": 5,
+          "notes": "Roads constitute over half of transportation infrastructure portfolio as of July 2024"
+        }
+      },
+      "water_wastewater": {
+        "water_treatment": {
+          "irr_range": [6, 10],
+          "dscr_min": 1.25,
+          "dscr_typical": 1.3,
+          "ltv_max": 0.80,
+          "payback_period_years": [5, 15],
+          "debt_equity_ratio": "75:25",
+          "notes": "Lower DSCR requirements due to stable, regulated cash flows"
+        },
+        "wastewater_treatment": {
+          "irr_range": [6, 10],
+          "dscr_min": 1.25,
+          "dscr_typical": 1.3,
+          "ltv_max": 0.80,
+          "payback_period_years": [5, 15],
+          "debt_equity_ratio": "75:25"
+        },
+        "desalination": {
+          "irr_range": [8, 12],
+          "dscr_min": 1.35,
+          "ltv_max": 0.75,
+          "payback_period_years": [8, 15],
+          "debt_equity_ratio": "70:30"
+        },
+        "energy_efficiency_measures": {
+          "payback_period_years": [0.5, 5],
+          "energy_savings_percent": [15, 30],
+          "notes": "Many energy efficiency measures have payback periods less than 5 years"
+        }
+      },
+      "telecommunications": {
+        "fiber_networks": {
+          "irr_range": [10, 16],
+          "dscr_min": 1.4,
+          "dscr_typical": 1.5,
+          "ltv_max": 0.70,
+          "payback_period_years": [5, 10],
+          "debt_equity_ratio": "70:30"
+        },
+        "data_centers": {
+          "irr_range": [11, 17],
+          "dscr_min": 1.4,
+          "ltv_max": 0.65,
+          "payback_period_years": [5, 8],
+          "debt_equity_ratio": "65:35"
+        },
+        "5g_infrastructure": {
+          "irr_range": [10, 15],
+          "dscr_min": 1.4,
+          "ltv_max": 0.70,
+          "payback_period_years": [6, 10],
+          "debt_equity_ratio": "70:30"
+        }
+      },
+      "social_infrastructure": {
+        "hospitals": {
+          "irr_range": [7, 11],
+          "dscr_min": 1.35,
+          "ltv_max": 0.75,
+          "payback_period_years": [10, 20],
+          "debt_equity_ratio": "70:30"
+        },
+        "schools": {
+          "irr_range": [6, 10],
+          "dscr_min": 1.3,
+          "ltv_max": 0.75,
+          "payback_period_years": [12, 25],
+          "debt_equity_ratio": "70:30"
+        }
+      }
+    },
+    "regional_factors": {
+      "africa": {
+        "political_risk_premium_percent": [3.0, 8.0],
+        "currency_risk_premium_percent": [2.0, 5.0],
+        "actual_loss_rate_percent": 1.7,
+        "perceived_vs_actual": "Perceived risk significantly higher than actual loss rates",
+        "infrastructure_financing_gap_usd_billion": [130, 170],
+        "foreign_currency_debt_percent": [70, 85],
+        "notes": "African Development Bank data shows actual 14-year loss rate of 1.7% vs 13% in Latin America and 10% in Eastern Europe"
+      },
+      "latin_america": {
+        "political_risk_premium_percent": [2.5, 6.0],
+        "currency_risk_premium_percent": [1.5, 4.0],
+        "actual_loss_rate_percent": 13.0,
+        "country_examples": {
+          "brazil": {
+            "renewable_energy_irr": 15.0,
+            "sovereign_rating": "BB-",
+            "risk_premium_improvement": "Post-financial crisis recovery demonstrated lower risk than traditionally perceived"
+          },
+          "mexico": {
+            "infrastructure_irr_range": [9, 13],
+            "sovereign_rating": "BBB"
+          },
+          "chile": {
+            "infrastructure_irr_range": [7, 11],
+            "sovereign_rating": "A+"
+          }
+        }
+      },
+      "asia_pacific": {
+        "india": {
+          "political_risk_premium_percent": [2.0, 4.0],
+          "currency_risk_premium_percent": [1.5, 3.0],
+          "sovereign_rating": "Baa3",
+          "default_spread_percent": 2.35,
+          "renewable_energy_irr": [13.0, 15.0],
+          "equity_risk_premium_percent": 3.34,
+          "notes": "Equity risk premium calculated by multiplying default spread by 1.42 volatility ratio"
+        },
+        "southeast_asia": {
+          "political_risk_premium_percent": [1.5, 4.0],
+          "currency_risk_premium_percent": [1.0, 3.0],
+          "irr_range": [9, 14],
+          "notes": "Fiber-optic and undersea cable rollout narrowing digital divide"
+        },
+        "china": {
+          "political_risk_premium_percent": [1.0, 2.5],
+          "currency_risk_premium_percent": [0.5, 2.0],
+          "irr_range": [6, 10]
+        },
+        "japan": {
+          "political_risk_premium_percent": [0.0, 0.5],
+          "currency_risk_premium_percent": [0.0, 0.5],
+          "renewable_energy_irr": [8.0, 10.0]
+        },
+        "australia": {
+          "political_risk_premium_percent": [0.0, 0.5],
+          "currency_risk_premium_percent": [0.0, 0.5],
+          "renewable_energy_irr": [10.0, 12.0]
+        }
+      },
+      "middle_east": {
+        "gcc_countries": {
+          "political_risk_premium_percent": [1.0, 3.0],
+          "currency_risk_premium_percent": [0.5, 2.0],
+          "irr_range": [7, 12]
+        },
+        "other_middle_east": {
+          "political_risk_premium_percent": [4.0, 10.0],
+          "currency_risk_premium_percent": [3.0, 7.0],
+          "irr_range": [12, 18]
+        }
+      },
+      "europe": {
+        "western_europe": {
+          "political_risk_premium_percent": [0.0, 0.5],
+          "currency_risk_premium_percent": [0.0, 0.5],
+          "renewable_energy_irr": [7.5, 12.0],
+          "actual_loss_rate_percent": 10.0
+        },
+        "eastern_europe": {
+          "political_risk_premium_percent": [2.0, 5.0],
+          "currency_risk_premium_percent": [1.5, 4.0],
+          "irr_range": [9, 14],
+          "actual_loss_rate_percent": 10.0
+        }
+      },
+      "north_america": {
+        "united_states": {
+          "political_risk_premium_percent": [0.0, 0.0],
+          "currency_risk_premium_percent": [0.0, 0.0],
+          "renewable_energy_irr": [7.5, 9.0],
+          "mature_market_equity_premium_percent": 5.0
+        },
+        "canada": {
+          "political_risk_premium_percent": [0.0, 0.0],
+          "currency_risk_premium_percent": [0.0, 0.5],
+          "irr_range": [7, 11]
+        }
+      }
+    },
+    "cost_of_capital_methodology": {
+      "wacc_calculation": {
+        "formula": "WACC = (E/V × Re) + (D/V × Rd × (1-Tc))",
+        "components": {
+          "E": "Market value of equity",
+          "D": "Market value of debt",
+          "V": "Total value (E + D)",
+          "Re": "Cost of equity",
+          "Rd": "Cost of debt",
+          "Tc": "Corporate tax rate"
+        }
+      },
+      "cost_of_equity_calculation": {
+        "capm_formula": "Re = Rf + β × (Rm - Rf) + CRP",
+        "components": {
+          "Rf": "Risk-free rate",
+          "β": "Beta (systematic risk)",
+          "Rm": "Expected market return",
+          "Rm_minus_Rf": "Market risk premium (typically 5% for developed markets)",
+          "CRP": "Country risk premium"
+        }
+      },
+      "country_risk_premium_calculation": {
+        "formula": "CRP = Default Spread × (σ_equity / σ_bond)",
+        "typical_volatility_ratio": 1.42,
+        "data_source": "Standard deviation of S&P Emerging BMI to iShares JPM USD Emerging Markets Bond ETF",
+        "notes": "Equity country risk premium is typically greater than country default spread"
+      },
+      "total_equity_risk_premium": {
+        "formula": "Total ERP = Mature Market Premium + Country Risk Premium",
+        "mature_market_premium_percent": 5.0,
+        "example_india": {
+          "default_spread_percent": 2.35,
+          "volatility_ratio": 1.42,
+          "country_risk_premium_percent": 3.34,
+          "total_erp_percent": 8.34
+        }
+      }
+    },
+    "carbon_credit_valuations": {
+      "voluntary_carbon_market_2024": {
+        "average_price_usd_per_ton": 4.8,
+        "price_change_from_2023_percent": -20,
+        "market_size_usd_billion": 1.4,
+        "projected_2030_usd_billion": 700,
+        "projected_2050_price_usd_per_ton": 238,
+        "growth_forecast": "7x market growth to $700B by 2030",
+        "market_dynamics": "Supply outstripping demand; unretired credits pool approaching 1 billion tons"
+      },
+      "compliance_markets_2024": {
+        "eu_ets": {
+          "average_price_2024_eur": 65.0,
+          "average_price_2024_usd": 70.0,
+          "average_price_2023_eur": 83.0,
+          "price_forecast_2025_range_eur": [60, 80],
+          "price_decline_reason": "Weak industrial activity, lower gas prices, energy sector decarbonization",
+          "notes": "Down from €83/ton in 2023 to €65/ton in 2024"
+        },
+        "california_cap_trade": {
+          "average_price_2024_usd": 42.0,
+          "average_price_2023_usd": 34.0,
+          "forecast_2025_usd": 46.0,
+          "notes": "Supported by financial intermediaries, showing upward trend"
+        },
+        "global_compliance_average_usd": 56.0
+      },
+      "by_quality_rating": {
+        "high_quality_A_to_AAA": {
+          "price_usd_per_ton": 14.80,
+          "notes": "Premium for high-rated carbon credits"
+        },
+        "low_quality_CCC_to_B": {
+          "price_usd_per_ton": 3.50,
+          "notes": "Significant discount for lower quality credits"
+        }
+      },
+      "by_project_type": {
+        "removal_credits": {
+          "price_premium_vs_reduction_percent": 381,
+          "notes": "Removal credits command significantly higher prices than emission reduction credits"
+        },
+        "nature_based_solutions": {
+          "average_price_usd_per_ton": 20,
+          "offtake_agreements_2024": 18,
+          "volume_million_tons": 20,
+          "notes": "Nature-based solutions offtake agreements doubled in 2024"
+        },
+        "carbon_capture_utilization_storage": {
+          "ccus_investment_2024_usd_billion": 6.4,
+          "notes": "Significant infrastructure investment in CCUS projects"
+        },
+        "renewable_energy_credits": {
+          "status": "rejected",
+          "notes": "ICVCM rejected all legacy renewable methodologies in 2024"
+        }
+      },
+      "market_infrastructure_2024": {
+        "cop29_announcement": "Global two-tier registry to integrate voluntary and compliance systems",
+        "benefits": [
+          "Transparency",
+          "Credibility",
+          "Prevents double-counting across borders"
+        ]
+      },
+      "integration_in_infrastructure_projects": {
+        "revenue_impact": "Can improve project IRR by 0.5-2.0 percentage points",
+        "eligibility": "Renewable energy, energy efficiency, afforestation, waste-to-energy projects",
+        "verification_standards": [
+          "Verra VCS",
+          "Gold Standard",
+          "Climate Action Reserve",
+          "ICVCM Core Carbon Principles"
+        ],
+        "notes": "Carbon credits increasingly recognized as legitimate revenue stream for infrastructure projects, particularly in emerging markets"
+      }
+    },
+    "debt_structuring_parameters": {
+      "general_guidelines": {
+        "minimum_dscr": 1.25,
+        "preferred_dscr": 1.4,
+        "strong_dscr": 2.0,
+        "lockup_covenant_dscr": 1.1,
+        "debt_service_reserve_account": "Typically 6-12 months of debt service",
+        "tenor_years": {
+          "renewable_energy": [15, 25],
+          "transport": [20, 30],
+          "water": [20, 30],
+          "telecommunications": [7, 15],
+          "social_infrastructure": [25, 35]
+        }
+      },
+      "debt_sizing_approaches": {
+        "method_1": "Target DSCR approach - Size debt to maintain minimum DSCR throughout loan life",
+        "method_2": "Maximum gearing approach - Use predetermined debt-to-equity ratio",
+        "method_3": "Cash flow sculpting - Match debt service to projected cash flows",
+        "notes": "DSCR below 1.0 indicates insufficient cash flow to cover debt payments"
+      },
+      "covenant_structures": {
+        "minimum_dscr_covenant": {
+          "typical_range": [1.1, 1.25],
+          "breach_consequences": [
+            "Cash sweep to debt service reserve account",
+            "Dividend lockup",
+            "Additional equity injection requirement"
+          ]
+        },
+        "target_dscr_covenant": {
+          "typical_range": [1.3, 1.5],
+          "purpose": "Maintain adequate cushion for unexpected cash flow variations"
+        }
+      }
+    },
+    "market_trends_2024_2025": {
+      "renewable_energy": {
+        "global_capacity_growth_percent": 15.1,
+        "total_capacity_gw": 4448,
+        "projects_cheaper_than_fossil_fuels_percent": 91,
+        "global_investment_usd_billion": 807,
+        "solar_pv_investment_usd_billion": 554,
+        "solar_investment_growth_percent": 49,
+        "fossil_fuel_spending_avoided_usd_billion": 467,
+        "outlook": "Record-breaking growth driven by climate commitments and cost competitiveness",
+        "irr_trends": {
+          "average_infrastructure_2016_2022": 11.3,
+          "projected_average_2022_2028": 10.9,
+          "trend": "Slight decline due to rising interest rates",
+          "individual_project_example_brookfield": 17.0
+        }
+      },
+      "infrastructure_financing": {
+        "emerging_market_gap_usd_billion": 43000,
+        "africa_annual_gap_usd_billion": [130, 170],
+        "ppp_growth": "African governments increasingly turning to PPPs for infrastructure financing",
+        "ppp_framework_impact": {
+          "average_annual_investment_increase_usd_million": 488,
+          "period_analyzed": "1990-2022",
+          "notes": "Countries strengthening PPP frameworks saw $488M avg annual increase"
+        },
+        "transport_ppp_statistics": {
+          "total_projects_1990_2018": 1762,
+          "total_value_usd_billion": 535,
+          "roads_share_percent": 50
+        },
+        "financing_trends": [
+          "Increased use of blended finance",
+          "Growing role of DFIs and MDBs",
+          "Expansion of green bonds",
+          "Rise of ESG-linked financing",
+          "NAV finance for infrastructure funds (10-25% LTV)",
+          "Africa Investment Guarantee Agency (planned)"
+        ],
+        "nav_finance_infrastructure": {
+          "ltv_range_percent": [10, 25],
+          "market_size_2024_usd_billion": 100,
+          "forecast_2030_usd_billion": 700,
+          "notes": "Conservative LTV ratios provide downside protection for infrastructure funds"
+        }
+      },
+      "risk_perception_vs_reality": {
+        "africa_perception": "Often perceived as high-risk despite low actual loss rates",
+        "africa_actual_losses_percent": 1.7,
+        "latin_america_actual_losses_percent": 13.0,
+        "eastern_europe_actual_losses_percent": 10.0,
+        "impact": "Misperception of African risk leads to unnecessarily high capital costs",
+        "moody_analytics_study": "14-year analysis showing Africa's 1.7% loss rate vs 13% Latin America, 10% Eastern Europe",
+        "cost_reduction_potential": {
+          "financing_cost_reduction_bps": [300, 500],
+          "irr_improvement_percent": 20,
+          "tariff_reduction_percent": 20,
+          "notes": "300-500 bps reduction in financing cost can improve IRR by 20% and reduce tariffs by 20%"
+        },
+        "currency_mismatch_challenges": {
+          "impact": "Inflates cost of capital, distorts service pricing, deters long-term investment",
+          "sectors_affected": ["energy", "transportation", "healthcare"],
+          "foreign_currency_debt_percent_africa": [70, 85]
+        }
+      },
+      "construction_costs_2024": {
+        "g20_cost_increase_above_inflation_percent": 10,
+        "notes": "Infrastructure delivery costs increased ~10% above general inflation across G20 countries"
+      },
+      "interest_rate_environment": {
+        "status_2024": "elevated",
+        "primary_challenge": "Rising interest rates identified as main obstacle to attractive returns",
+        "impact_on_dscr": "Every 50 bps interest rate increase impacts cumulative DSCR by 2-3 bps"
+      }
+    },
+    "modeling_assumptions": {
+      "project_life": {
+        "renewable_energy_years": 25,
+        "transport_years": 30,
+        "water_years": 30,
+        "telecommunications_years": 15,
+        "social_infrastructure_years": 35
+      },
+      "energy_payback_periods": {
+        "description": "Time for energy generation unit to produce equivalent energy consumed in production/maintenance/decommissioning",
+        "wind_turbines": {
+          "payback_months_range": [1.3, 8.0],
+          "energy_return_on_investment": 18.0,
+          "notes": "Wind has fastest energy payback; produces 18x energy consumed in lifecycle"
+        },
+        "solar_pv": {
+          "multicrystalline_years": [2.0, 3.5],
+          "single_crystal_years": [3.0, 3.3],
+          "amorphous_years": [1.0, 1.5],
+          "energy_return_on_investment": 6.8,
+          "regional_variation": {
+            "southern_europe_years": 2.0,
+            "middle_europe_years": [3.0, 3.5]
+          },
+          "notes": "Solar EROI of 6.8:1; location-specific capacity factor significantly influences payback time"
+        },
+        "technology_improvement": "Energy payback times decreasing due to economies of scale and technological progress"
+      },
+      "inflation_assumptions": {
+        "developed_markets_percent": [2.0, 3.0],
+        "emerging_markets_percent": [4.0, 8.0],
+        "high_inflation_markets_percent": [8.0, 15.0]
+      },
+      "construction_period": {
+        "renewable_energy_years": [1, 3],
+        "transport_years": [3, 7],
+        "water_years": [2, 5],
+        "telecommunications_years": [1, 3],
+        "social_infrastructure_years": [3, 6]
+      },
+      "operation_and_maintenance": {
+        "renewable_energy_percent_of_revenue": [2, 4],
+        "transport_percent_of_revenue": [15, 25],
+        "water_percent_of_revenue": [10, 20],
+        "telecommunications_percent_of_revenue": [20, 35]
+      },
+      "revenue_escalation": {
+        "regulated_tariffs": "Typically linked to CPI or CPI + premium",
+        "market_based": "Based on supply-demand dynamics and contract structures",
+        "ppa_renewable_energy": "Often fixed or with modest annual escalation (0-2%)"
+      }
+    },
+    "sensitivity_analysis_parameters": {
+      "key_variables": [
+        "Construction cost (+/- 10-20%)",
+        "Revenue/demand (+/- 10-20%)",
+        "Operating costs (+/- 5-15%)",
+        "Interest rates (+/- 50-100 bps)",
+        "Foreign exchange rates (+/- 10-20%)",
+        "Carbon credit prices (+/- 50%)",
+        "Commodity prices (where applicable, +/- 20-30%)"
+      ],
+      "interest_rate_sensitivity": {
+        "impact_per_50bps": "Every 50 bps increase in interest rates impacts cumulative DSCR by 2-3 bps",
+        "refinancing_risk": "Particularly important for projects with short initial tenors"
+      },
+      "demand_risk_sensitivity": {
+        "renewable_energy": "Low - typically contracted via PPAs",
+        "transport": "Medium to High - depends on traffic volumes",
+        "water": "Low - essential service with stable demand",
+        "telecommunications": "Medium - competitive market with technology evolution risk"
+      }
+    },
+    "transaction_costs": {
+      "financial_advisory_percent_of_project_cost": [0.5, 1.5],
+      "legal_advisory_percent_of_project_cost": [0.3, 1.0],
+      "technical_advisory_percent_of_project_cost": [0.2, 0.8],
+      "lender_fees_percent_of_debt": [1.0, 3.0],
+      "arrangement_fee_percent": [1.0, 2.5],
+      "commitment_fee_percent_per_annum": [0.5, 1.5],
+      "agency_fee_usd_per_annum": [50000, 150000],
+      "total_transaction_costs_percent": [2.0, 5.0]
+    }
+  },
+  "data_limitations_and_disclaimers": {
+    "important_notes": [
+      "All benchmarks are indicative and based on market data as of 2024-2025",
+      "Actual project terms depend on specific risk profile, jurisdiction, sponsor quality, and market conditions",
+      "IRR ranges represent unleveraged and leveraged returns across different risk profiles",
+      "DSCR requirements vary by lender, project stage, and risk assessment",
+      "Country risk premiums are dynamic and should be updated regularly",
+      "Carbon credit valuations are subject to significant market volatility",
+      "Regulatory changes can materially impact project economics",
+      "Currency fluctuations in emerging markets can significantly affect returns"
+    ],
+    "recommended_updates": [
+      "Update country risk premiums quarterly from NYU Stern database",
+      "Review sector IRRs annually based on transaction data",
+      "Monitor carbon credit prices monthly during project development",
+      "Track regulatory changes in relevant jurisdictions",
+      "Update cost of debt based on current interest rate environment"
+    ],
+    "data_sources_validation": [
+      "World Bank and IFC provide authoritative infrastructure finance data",
+      "Lazard LCOE analysis is industry-standard for renewable energy benchmarks",
+      "S&P Global and Moody's provide infrastructure credit ratings and analysis",
+      "IEA World Energy Investment report offers comprehensive energy sector data",
+      "NYU Stern Damodaran database is widely used for country risk premiums"
+    ]
+  },
+  "web_research_sources_2025": {
+    "infrastructure_irr_benchmarks": [
+      "Global Infrastructure Hub - Infrastructure Monitor 2024: https://cdn.gihub.org/umbraco/media/5555/infrastructure-monitor-2024-report.pdf",
+      "Cambridge Associates - Private Infrastructure Opportunities 2024: https://www.cambridgeassociates.com/insight/assessing-private-infrastructure-opportunity-today/",
+      "Banyan Infrastructure - Project Finance Metrics 101 (IRR): https://www.banyaninfrastructure.com/news/project-finance-metrics-101-internal-rate-of-return",
+      "Brookfield Infrastructure 2024 Year-End Results: https://bip.brookfield.com/press-releases/bipc/brookfield-infrastructure-reports-strong-2024-year-end-results"
+    ],
+    "dscr_ltv_benchmarks": [
+      "Banyan Infrastructure - DSCR Metrics: https://www.banyaninfrastructure.com/news/project-finance-metrics-101-dscr",
+      "Corporate Finance Institute - DSCR Guide: https://corporatefinanceinstitute.com/resources/commercial-lending/debt-service-coverage-ratio/",
+      "Financial Edge - DSCR in Project Finance: https://www.fe.training/free-resources/project-finance/debt-service-coverage-ratio-dscr/",
+      "White Case - NAV Finance for Infrastructure: https://debtexplorer.whitecase.com/leveraged-finance-commentary/net-asset-value-finance-gains-ground-with-infrastructure-managers"
+    ],
+    "country_risk_premiums": [
+      "NYU Stern - Damodaran Country Risk Premium Database: https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/ctryprem.html",
+      "KPMG Atlas - Country Risk Premium Data: https://atlas.kpmg.com/de/en/deal-advisory-services/cost-of-capital-and-multiples/country-risk-premium",
+      "PWC - Country Risk Premia Quarterly Update: https://www.pwc.com/gx/en/research-insights/economy/country-risk-premia-quarterly-update.html",
+      "Kroll - International Cost of Capital: https://www.kroll.com/en/cost-of-capital/international-cost-of-capital"
+    ],
+    "carbon_credit_prices": [
+      "Carbon Credits - 2024 Market Overview: https://carboncredits.com/carbon-credits-in-2024-what-to-expect-in-2025-and-beyond-250b-by-2050/",
+      "World Bank - State and Trends of Carbon Pricing 2024: https://www.worldbank.org/en/news/press-release/2024/05/21/global-carbon-pricing-revenues-top-a-record-100-billion",
+      "BloombergNEF - Global Carbon Market Outlook 2024: https://about.bnef.com/blog/global-carbon-market-outlook-2024/",
+      "MSCI - Carbon Credit Prices: https://www.msci.com/data-and-analytics/carbon-markets/carbon-credit-prices",
+      "Abatable - VCM Price Changes 2024: https://abatable.com/blog/how-did-credit-prices-in-the-vcm-change-in-2024/",
+      "World Bank - Carbon Pricing Dashboard: https://carbonpricingdashboard.worldbank.org/"
+    ],
+    "renewable_energy_benchmarks": [
+      "IRENA - Renewable Power Generation Costs 2024: https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2025/Jul/IRENA_TEC_RPGC_in_2024_Summary_2025.pdf",
+      "IRENA - Global Renewable Investment 2024: https://www.irena.org/News/pressreleases/2025/Nov/Global-Renewable-Energy-Investment-Hit-USD-807-Billion-in-2024",
+      "Artin Energy - Solar IRR Guide: https://artinenergy.com/irr-solar/",
+      "RatedPower - IRR in Solar Plant Design: https://ratedpower.com/glossary/internal-rate-of-return/",
+      "NREL - LCOE & IRR of PV Projects: https://www.nrel.gov/news/video/lcoe-irr-pv-projects-text",
+      "Shasta Power - Solar Farm Economics: https://shastapower.com/solar-farm-economics-analyzing-roi-and-irr-trends-for-investors/"
+    ],
+    "transport_ppp_benchmarks": [
+      "World Bank PPP - Roads and Tolls: https://ppp.worldbank.org/public-private-partnership/sector/transportation/roads-tolls-bridges/road-concessions",
+      "NBER - PPP Working Paper: https://www.nber.org/system/files/working_papers/w26766/w26766.pdf",
+      "MDPI - PPP Sustainability Study: https://www.mdpi.com/2071-1050/10/12/4371",
+      "MDPI - Road Infrastructure PPP Review: https://www.mdpi.com/2071-1050/16/4/1430"
+    ],
+    "africa_risk_analysis": [
+      "African Development Bank - Africa's Risk Premium Myth: https://www.afdb.org/en/news-and-events/press-releases/africas-risk-premium-costly-myth-holding-back-continent-80966",
+      "Oxford Economics - Africa Risk-Reward Index 2024: https://www.oxfordeconomics.com/africa-risk-reward-index-2024/",
+      "The Business & Financial Times - Currency Mismatch in Africa: https://thebftonline.com/2025/11/13/bridging-the-currency-gap-innovative-financial-solutions-to-mitigate-currency-mismatch-in-africas-infrastructure-investments/",
+      "Control Risks - Africa Infrastructure Political Exposure: https://www.controlrisks.com/our-thinking/insights/africa-infrastructure-navigating-political-exposure-in-consortia",
+      "African Business - WEF Davos 2024 Risk Bias: https://african.business/2024/01/finance-services/wef-davos-2024-tackling-investors-african-risk-bias"
+    ],
+    "energy_payback_analysis": [
+      "ScienceDirect - Energy Payback Time: https://www.sciencedirect.com/topics/engineering/energy-payback-time",
+      "Energy Education - Payback Overview: https://energyeducation.ca/encyclopedia/Payback",
+      "NREL - Energy Payback for PV: https://docs.nrel.gov/docs/fy04osti/35489.pdf",
+      "NREL - Energy and Carbon Payback Times US PV: https://docs.nrel.gov/docs/fy24osti/88653.pdf",
+      "Sustainability Directory - Wind Turbine Payback: https://energy.sustainability-directory.com/learn/what-is-the-energy-payback-period-for-a-wind-turbine-considering-the-emissions-from-its-construction/"
+    ]
+  }
+}

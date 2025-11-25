@@ -1,0 +1,575 @@
+{
+  "government_policies": [
+    {
+      "country": "Egypt",
+      "renewable_target_2030": 42,
+      "renewable_target_2040": 60,
+      "renewable_target_2050": "Net zero emissions strategy",
+      "current_renewable_share": 11,
+      "feed_in_tariff": {
+        "solar_pv_usd_per_kwh": 0.084,
+        "wind_usd_per_kwh": 0.04,
+        "notes": "Solar FiT for 20-50 MW projects; Wind FiT for 2,500-5,000+ operation hours"
+      },
+      "incentives": [
+        "Tax exemption on renewable equipment",
+        "Land allocation in renewable zones",
+        "Waiver of customs duties on renewable energy equipment",
+        "Simplified licensing procedures through one-stop-shop",
+        "Priority grid connection for renewable projects"
+      ],
+      "carbon_pricing": {
+        "type": "Voluntary Carbon Market",
+        "description": "Africa's first regulated voluntary carbon market on Egyptian Stock Exchange",
+        "status": "Active"
+      },
+      "local_content_requirement": null,
+      "grid_connection_policy": "Priority connection for renewable energy projects",
+      "land_allocation": "Government allocates land in designated renewable energy zones",
+      "source_urls": [
+        "https://sis.gov.eg/en/media-center/news/egypt-targets-42-renewable-energy-share-by-2030-rising-to-60-by-2040-pm/",
+        "https://www.iea.org/policies/5658-feed-in-tariff-for-wind-and-solar-pv-projects",
+        "https://www.trade.gov/country-commercial-guides/egypt-electricity-and-renewable-energy"
+      ]
+    },
+    {
+      "country": "Morocco",
+      "renewable_target_2030": 56,
+      "renewable_target_2050": 100,
+      "installed_capacity_target_2030_gw": 10.5,
+      "capacity_breakdown_2030": {
+        "solar_gw": 4.7,
+        "wind_gw": 4.3,
+        "hydro_gw": 1.5
+      },
+      "feed_in_tariff": {
+        "status": "Phased out",
+        "current_mechanism": "Competitive bidding and IPP framework",
+        "notes": "MASEN provides one-stop-shop for private developers"
+      },
+      "incentives": [
+        "MASEN institutional support as one-stop-shop for developers",
+        "Favorable regulatory framework (Laws 57-09, 37-16, 13-09, 48-15)",
+        "IPP framework for direct sales to consumers",
+        "Simplified permitting for renewable projects",
+        "Access to transmission infrastructure"
+      ],
+      "carbon_pricing": {
+        "type": "Voluntary Carbon Market & Article 6 mechanisms",
+        "description": "Advanced Article 6 implementation with ITMO agreements",
+        "international_partners": ["Switzerland Klick Foundation", "Norway"],
+        "status": "Active"
+      },
+      "local_content_requirement": 0.30,
+      "local_content_notes": "30% LCR for Solar PV and CSP projects; Noor I CSP plant achieved 42% local content",
+      "grid_connection_policy": "Facilitated access through MASEN",
+      "land_allocation": "Designated renewable energy zones with streamlined access",
+      "source_urls": [
+        "https://www.iea.org/policies/6557-morocco-renewable-energy-target-2030",
+        "https://www.trade.gov/country-commercial-guides/morocco-energy",
+        "https://www.energylocalcontentmap.org/morocco"
+      ]
+    },
+    {
+      "country": "Kenya",
+      "renewable_target_2030": 100,
+      "renewable_target_description": "100% clean energy on national grid by 2030",
+      "installed_capacity_target_2030_mw": 5952,
+      "capacity_breakdown_2030": {
+        "geothermal_mw": 1681,
+        "hydro_mw": 1403,
+        "wind_mw": 966,
+        "solar_mw": 807,
+        "biomass_cogeneration_mw": 295
+      },
+      "current_renewable_share": 83,
+      "feed_in_tariff": {
+        "status": "Transitioning to auction model",
+        "historic_fit": "Launched 2008, expanded in subsequent years",
+        "current_mechanism": "Renewable Energy Auction Policy (REAP) for projects over 20 MW",
+        "notes": "Geothermal developers selected via competitive bidding"
+      },
+      "incentives": [
+        "Zero-rated import duty on renewable energy equipment",
+        "VAT exemption on renewable energy equipment",
+        "Competitive bidding framework ensuring cost-effectiveness",
+        "Enhanced private sector participation framework",
+        "Guaranteed grid access for qualifying projects"
+      ],
+      "carbon_pricing": null,
+      "local_content_requirement": null,
+      "grid_connection_policy": "Guaranteed connection rights for qualifying renewable projects",
+      "land_allocation": "Streamlined land allocation for renewable projects",
+      "additional_targets": {
+        "universal_electricity_access": "2030",
+        "universal_clean_cooking": "2030",
+        "energy_efficiency_improvement": "Double improvements by 2030"
+      },
+      "source_urls": [
+        "https://www.energy.go.ke/sites/default/files/Final Draft  National Energy Policy 18022025.pdf",
+        "https://vision2030.go.ke/project/development-of-new-and-renewable-sources-of-energy/",
+        "https://africasustainabilitymatters.com/kenya-unveils-clean-energy-policy-to-achieve-100-green-power-by-2030-and-net-zero-by-2050/"
+      ]
+    },
+    {
+      "country": "Chile",
+      "renewable_target_2030": 80,
+      "renewable_target_2050": 100,
+      "legally_binding": true,
+      "feed_in_tariff": {
+        "status": "Not implemented",
+        "current_mechanism": "Competitive auctions and market-based approaches",
+        "notes": "Chile achieved renewable success without feed-in tariffs"
+      },
+      "incentives": [
+        "Renewable energy quotas",
+        "Competitive auction system",
+        "Carbon tax gradually increasing to USD 35/tCO2 by 2030 and USD 80/tCO2 by 2040",
+        "Framework Law on Climate Change (2022) making targets legally binding",
+        "Market-based renewable energy trading"
+      ],
+      "carbon_pricing": {
+        "type": "Carbon Tax",
+        "rate_2030_usd_per_tco2": 35,
+        "rate_2040_usd_per_tco2": 80,
+        "status": "Active and increasing"
+      },
+      "local_content_requirement": null,
+      "grid_connection_policy": "Grid access with transmission expansion plans",
+      "challenges": "19% renewables curtailment in 2024 due to transmission constraints",
+      "source_urls": [
+        "https://climateactiontracker.org/countries/chile/policies-action/",
+        "https://www.gob.cl/en/news/minister-jobet-announces-66-measures-to-guide-the-development-of-chiles-energy-sector-over-the-next-decades/",
+        "https://www.trade.gov/country-commercial-guides/chile-energy"
+      ]
+    },
+    {
+      "country": "India",
+      "renewable_target_2030_gw": 500,
+      "solar_target_2030_gw": 280,
+      "offshore_wind_target_2030_gw": 30,
+      "renewable_energy_requirement_2030_pct": 50,
+      "carbon_reduction_target_2030": "45% carbon intensity reduction vs 2005 levels",
+      "current_capacity_gw": 250,
+      "feed_in_tariff": {
+        "status": "Primarily auction-based system",
+        "solar_auction_rates_2024": {
+          "average_inr_per_kwh": 2.56,
+          "range_inr_per_kwh": "2.50-2.68",
+          "usd_equivalent_per_kwh": "0.030-0.032"
+        },
+        "wind_auction_rates_2024": {
+          "range_inr_per_kwh": "3.42-3.81",
+          "usd_equivalent_per_kwh": "0.041-0.046"
+        },
+        "hybrid_rates_2024": {
+          "range_inr_per_kwh": "3.15-3.65",
+          "usd_equivalent_per_kwh": "0.038-0.044"
+        }
+      },
+      "incentives": [
+        "Production Linked Incentive (PLI) scheme: Rs. 19,500 crore (USD 2.57 billion) for solar module manufacturing",
+        "Waiver of Inter-State Transmission Charges",
+        "Accelerated depreciation benefits",
+        "Viability gap funding",
+        "Accessible financing options",
+        "Budget allocation 2025-26: Rs. 256.49 crore (USD 3.03 billion), 39% increase",
+        "Basic customs duties: 25% on solar cells, 40% on solar modules to encourage local manufacturing"
+      ],
+      "carbon_pricing": null,
+      "local_content_requirement": "Encouraged through PLI schemes and customs duties structure",
+      "grid_connection_policy": "Renewable Purchase Obligations (RPO) mandate",
+      "land_allocation": "Government support for enabling infrastructure",
+      "source_urls": [
+        "https://www.investindia.gov.in/sector/renewable-energy",
+        "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2094992",
+        "https://renewablewatch.in/2024/12/17/tariff-trends-review-of-renewable-energy-tender-auctions/"
+      ]
+    },
+    {
+      "country": "South Africa",
+      "renewable_target_2030_gw": 42,
+      "renewable_target_2030_irp": 17.8,
+      "feed_in_tariff": {
+        "status": "Replaced by REIPPPP competitive bidding",
+        "historic_refit": "Developed 2007-2010 but not implemented",
+        "current_mechanism": "REIPPPP auction rounds"
+      },
+      "incentives": [
+        "REIPPPP competitive bidding program",
+        "Cost reductions achieved: 55% for wind, 76% for solar PV",
+        "Private sector investment framework",
+        "Grid connection agreements through Eskom",
+        "Over $20 billion in investments attracted"
+      ],
+      "carbon_pricing": null,
+      "local_content_requirement": "Evaluated as part of REIPPPP bid criteria",
+      "grid_connection_policy": "Eskom Single Buyer Office coordinates grid access",
+      "program_details": {
+        "name": "Renewable Energy Independent Power Producer Procurement Programme (REIPPPP)",
+        "launched": 2011,
+        "target_capacity_gw": 17.8,
+        "technologies": ["Solar PV", "Concentrated Solar", "Onshore Wind", "Small Hydro (<40 MW)", "Landfill Gas", "Biomass", "Biogas"]
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Renewable_Energy_Independent_Power_Producer_Procurement_Programme",
+        "https://www.trade.gov/country-commercial-guides/south-africa-energy",
+        "http://awsassets.wwf.org.za/downloads/a16369_wwf_reip_report_online.pdf"
+      ]
+    },
+    {
+      "country": "Brazil",
+      "renewable_target_2030": "28-33% renewable energy (excluding hydro)",
+      "renewable_electricity_target_2030": 23,
+      "renewable_target_2050": "Net zero emissions",
+      "deforestation_target_2030": "Zero illegal deforestation",
+      "emission_reduction_2030": "50% carbon emissions reduction",
+      "feed_in_tariff": {
+        "status": "Not primary mechanism",
+        "current_mechanism": "Renewable energy auctions, bilateral agreements"
+      },
+      "incentives": [
+        "Guaranteed energy purchasing through auctions",
+        "Financial support from Brazilian Development Bank (BNDES)",
+        "ICMS tax exemptions (state sales tax)",
+        "Law No. 14,993/2024 (Fuel of the Future): incentives for biofuels, SAF, green diesel, biomethane",
+        "Law No. 15,097/2025: offshore wind generation regulation",
+        "Law No. 14,300/2022: renewable energy project development incentives"
+      ],
+      "carbon_pricing": null,
+      "local_content_requirement": null,
+      "grid_connection_policy": "Regulated access for independent power producers",
+      "land_allocation": "Offshore wind zones designated under new legislation",
+      "source_urls": [
+        "https://www.iea.org/commentaries/brazil-s-opportunity-to-lead-the-global-dialogue-on-energy-and-climate",
+        "https://climateactiontracker.org/countries/brazil/2023-12-05/policies-action/",
+        "https://iclg.com/practice-areas/renewable-energy-laws-and-regulations/brazil"
+      ]
+    },
+    {
+      "country": "United Arab Emirates",
+      "renewable_target_2030": 32,
+      "clean_energy_target_2030": 30,
+      "renewable_target_2050": 50,
+      "carbon_reduction_2050": "70% carbon footprint reduction in power generation",
+      "installed_capacity_target_2030_gw": 19.8,
+      "investment_target_2030_billion_usd": 54,
+      "feed_in_tariff": {
+        "status": "Competitive market pricing",
+        "current_solar_cost_usd_per_kwh": 0.0135,
+        "notes": "Over 15 years of R&D achieved highly competitive solar costs"
+      },
+      "incentives": [
+        "Dubai Green Fund: AED 100 billion (USD 27 billion) for clean energy loans at reduced interest rates",
+        "Highly competitive solar pricing at 1.35 cents/kWh",
+        "Mohammed bin Rashid Al Maktoum Solar Park: 5 GW planned by 2030",
+        "Dubai Clean Energy Strategy: 75% clean energy by 2050",
+        "Investment of AED 150-200 billion (USD 41-54 billion) by 2030"
+      ],
+      "carbon_pricing": {
+        "type": "Carbon Trading Exchange",
+        "description": "World's first regulated carbon credit trading exchange and clearing house in region",
+        "infrastructure": "Carbon Trading Exchange and Clearing House (ADGM & AirCarbon Exchange)",
+        "commitments": "UAE Carbon Alliance pledged USD 450 million for carbon credits (April 2023)",
+        "status": "Active since 2021"
+      },
+      "local_content_requirement": null,
+      "grid_connection_policy": "Integrated national grid with priority for clean energy",
+      "land_allocation": "Designated zones for major solar parks",
+      "source_urls": [
+        "https://u.ae/en/about-the-uae/strategies-initiatives-and-awards/strategies-plans-and-visions/environment-and-energy/uae-energy-strategy-2050",
+        "https://www.trade.gov/country-commercial-guides/united-arab-emirates-renewable-energy-and-clean-energy-0",
+        "https://www.theglobaleconomics.com/2024/09/16/uae-renewable-energy/"
+      ]
+    },
+    {
+      "country": "Saudi Arabia",
+      "renewable_target_2030": 50,
+      "installed_capacity_target_2030_gw": 130,
+      "capacity_breakdown_2030": {
+        "solar_gw": 58.7,
+        "wind_gw": 40,
+        "solar_percentage": 60,
+        "wind_percentage": 40
+      },
+      "feed_in_tariff": {
+        "rate_sar_per_kwh": 0.07,
+        "government_purchase_price_usd_per_kwh": 0.0187,
+        "grid_selling_price_usd_per_kwh": 0.048
+      },
+      "incentives": [
+        "National Renewable Energy Program (NREP) for 58.7 GW by 2030",
+        "Vision 2030 framework support",
+        "Streamlined permitting processes",
+        "Tax incentives under consideration",
+        "Major projects: Sudair Solar PV (1.5 GW), Dumat Al Jandal wind (400 MW)"
+      ],
+      "carbon_pricing": {
+        "type": "Voluntary Carbon Market",
+        "infrastructure": "Regional Voluntary Carbon Market Company (RVCMC)",
+        "mechanism": "Greenhouse Gas Crediting and Offsetting Mechanism (GCOM)",
+        "auction_results": [
+          "October 2022: 1.4 million tons CO2 equivalent",
+          "June 2023: 2.2 million metric tons"
+        ],
+        "status": "Active - leading regional VCM development"
+      },
+      "local_content_requirement": null,
+      "grid_connection_policy": "Priority access for renewable energy projects",
+      "land_allocation": "Government land allocation for major renewable projects",
+      "source_urls": [
+        "https://solarquarter.com/2025/02/27/saudi-arabia-targets-50-renewable-energy-by-2030-expands-green-finance-initiatives/",
+        "https://www.climatescorecard.org/2025/02/saudi-arabias-vision-2030s-renewable-energy-project-initiatives/",
+        "https://www.energypolicy.columbia.edu/saudi-arabias-renewable-energy-initiatives-and-their-geopolitical-implications/"
+      ]
+    },
+    {
+      "country": "Australia",
+      "renewable_target_2030": 82,
+      "emission_reduction_2030": "43% below 2005 levels",
+      "emission_reduction_2035": "62-70% below 2005 levels",
+      "emission_reduction_2050": "Net zero",
+      "installed_capacity_target_2030_gw": 32,
+      "renewable_energy_target_gwh": 33000,
+      "feed_in_tariff": {
+        "status": "Market-based with various state schemes",
+        "mechanism": "Renewable Energy Target (RET) scheme with certificate trading"
+      },
+      "incentives": [
+        "Hydrogen Production Tax Incentive: AUD 2/kg starting 2027-28 (USD 6.7 billion over 10 years)",
+        "Capacity Investment Scheme: 32 GW target by 2030",
+        "Rewiring the Nation: AUD 20 billion for grid investment",
+        "Critical Minerals Production Tax Incentive: USD 7.1 billion over 11 years",
+        "Green Investment: USD 2 billion for green aluminium, USD 2 billion for CEFC, USD 1 billion for green iron"
+      ],
+      "carbon_pricing": {
+        "type": "Australian Carbon Credit Units (ACCUs)",
+        "mechanism": "Emissions Reduction Fund with carbon credit trading",
+        "status": "Active"
+      },
+      "local_content_requirement": null,
+      "grid_connection_policy": "Rewiring the Nation program for transmission infrastructure",
+      "land_allocation": "Renewable energy zones designated across states",
+      "source_urls": [
+        "https://www.dcceew.gov.au/energy/strategies-and-frameworks/powering-australia",
+        "https://cer.gov.au/schemes/renewable-energy-target",
+        "https://cleanenergycouncil.org.au/advocacy/market-investment-and-grid"
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "renewable_target_2030": "28-36% (excluding hydro)",
+      "renewable_target_2050": "75%",
+      "net_zero_target": 2050,
+      "installed_capacity_target_2030": {
+        "solar_gw": 73,
+        "onshore_wind_gw": 22,
+        "offshore_wind_gw": 6,
+        "total_wind_percentage_tgc": 18.5
+      },
+      "installed_capacity_target_2050": {
+        "wind_gw": "130-169",
+        "wind_percentage_tgc": "26.5-29.4",
+        "solar_percentage_tgc": "33-34.4"
+      },
+      "feed_in_tariff": {
+        "status": "Phased out for new projects",
+        "historic_solar_fit": [
+          {
+            "period": "2017-2019",
+            "rate_usd_per_kwh": 0.0935
+          },
+          {
+            "period": "FiT2 (until Dec 2020)",
+            "rate_usd_per_kwh": 0.0838,
+            "scope": "Solar rooftops only"
+          }
+        ],
+        "historic_wind_fit": [
+          {
+            "period": "2011 onwards",
+            "rate_usd_per_kwh": 0.078
+          },
+          {
+            "project": "Bac Lieu wind farm",
+            "rate_usd_per_kwh": 0.098
+          }
+        ],
+        "current_mechanism": "Transitioning to standardized competitive auctions"
+      },
+      "incentives": [
+        "Power Development Plan 8 (PDP8) framework",
+        "Competitive auction system replacing FiTs",
+        "Net zero by 2050 commitment driving policy support",
+        "Simplified licensing for qualifying projects"
+      ],
+      "carbon_pricing": null,
+      "local_content_requirement": null,
+      "grid_connection_policy": "Grid access with transmission expansion under PDP8",
+      "land_allocation": "Designated renewable energy development zones",
+      "source_urls": [
+        "https://ieefa.org/resources/boom-balance-vietnams-clean-energy-transition",
+        "https://theinvestor.vn/renewables-to-account-for-28-36-of-vietnams-energy-output-by-2030-adjusted-pdp-viii-d15327.html",
+        "https://www.trade.gov/country-commercial-guides/vietnam-power-generation-transmission-and-distribution"
+      ]
+    },
+    {
+      "country": "Indonesia",
+      "renewable_target_2030": "44% of on-grid power mix (JETP target)",
+      "renewable_target_2050": 66,
+      "coal_phase_out_target": 2050,
+      "net_zero_target": "Before 2050 (revised from 2060)",
+      "emission_reduction_2030": "31.89% unconditional (43.2% with international support)",
+      "emission_peak_target": 2035,
+      "current_renewable_share": 14.68,
+      "new_capacity_planned_mw": 42569,
+      "feed_in_tariff": {
+        "status": "Limited implementation",
+        "current_mechanism": "Competitive auctions with transparent tariffs"
+      },
+      "incentives": [
+        "Just Energy Transition Partnership (JETP): USD 20 billion pledged",
+        "Transparent auction schedules",
+        "Land and transmission system access provisions",
+        "Priority dispatch for renewables",
+        "Tax incentives framework under development",
+        "Indonesia Carbon Exchange (IDXCarbon) launched 2023"
+      ],
+      "carbon_pricing": {
+        "type": "Emissions Trading System (ETS) and forthcoming Carbon Tax",
+        "coverage": "99 coal plants as of 2023",
+        "infrastructure": "Indonesia Carbon Exchange (IDXCarbon) launched 2023",
+        "status": "Active and expanding"
+      },
+      "local_content_requirement": null,
+      "grid_connection_policy": "PLN coordinates grid access with priority dispatch for renewables",
+      "land_allocation": "Streamlined land access provisions",
+      "challenges": "Current renewable share only 14.68% as of 2024, significant gap to targets",
+      "source_urls": [
+        "https://ember-energy.org/latest-insights/indonesias-expansion-of-clean-power-can-spur-growth-and-equality/",
+        "https://www.iea.org/reports/an-energy-sector-roadmap-to-net-zero-emissions-in-indonesia/executive-summary",
+        "https://climateactiontracker.org/countries/indonesia/"
+      ]
+    },
+    {
+      "country": "Mexico",
+      "renewable_target_2030": 45,
+      "current_renewable_share": 22,
+      "emission_reduction_2030": "35% below business-as-usual",
+      "installed_capacity_addition_2030_gw": 22.7,
+      "capacity_breakdown_planned": {
+        "government_solar_gw": 4.7,
+        "private_sector_renewable_gw": 6.4
+      },
+      "investment_target_2030_billion_usd": 48,
+      "feed_in_tariff": {
+        "status": "Not primary mechanism",
+        "current_mechanism": "Market-based with distributed generation"
+      },
+      "incentives": [
+        "National Development Plan 2025-2030: 51 renewable projects",
+        "Rising cost of power driving distributed generation",
+        "Corporate ESG and decarbonization goals support",
+        "Energy reliability requirements encouraging renewables",
+        "Distributed generation framework"
+      ],
+      "carbon_pricing": null,
+      "local_content_requirement": null,
+      "grid_connection_policy": "Regulated access for distributed and utility-scale generation",
+      "land_allocation": "To be determined under new administration",
+      "challenges": "Lack of detailed policy and financing mechanisms; previous administration prioritized fossil fuels",
+      "policy_outlook": "New Sheinbaum administration announced more ambitious clean energy plans",
+      "source_urls": [
+        "https://www.gob.mx/sre/prensa/mexico-announces-new-commitments-to-combat-climate-change-at-cop27",
+        "https://ember-energy.org/latest-insights/renewables-point-the-way-to-mexicos-energy-security/",
+        "https://mexicoenergyllc.com.mx/blogs/mexico-energy-insights/mexico-s-renewable-energy-goals-for-2030"
+      ]
+    },
+    {
+      "country": "Jordan",
+      "renewable_target_2030": 50,
+      "renewable_target_original": 31,
+      "target_achievement_date": "2028 (2 years early)",
+      "current_renewable_share": 29,
+      "feed_in_tariff": {
+        "status": "Phased out",
+        "historic_fit": "Introduced 2012 under REEEL, gradually phased out",
+        "current_mechanism": "Competitive bidding for large-scale projects"
+      },
+      "incentives": [
+        "Renewable Energy and Energy Efficiency Law (REEEL) framework",
+        "Competitive bidding process for rounds 2 and 3",
+        "Simplified licensing for qualifying projects",
+        "Grid access guarantees for renewable projects",
+        "Support for distributed generation"
+      ],
+      "carbon_pricing": null,
+      "local_content_requirement": null,
+      "grid_connection_policy": "Guaranteed grid access for renewable energy producers",
+      "land_allocation": "Government support for renewable project land allocation",
+      "source_urls": [
+        "https://www.trade.gov/country-commercial-guides/jordan-renewable-energy",
+        "https://www.energetica-india.net/news/jordan-to-achieve-31-percent-re-target-two-years-early",
+        "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2021/Feb/IRENA_RRA_Jordan_2021.pdf"
+      ]
+    },
+    {
+      "country": "Ethiopia",
+      "renewable_target_2030": "95% of electricity from renewables",
+      "installed_capacity_target_2030_mw": 17000,
+      "installed_capacity_target_alt_2030_mw": 20000,
+      "current_capacity_mw": 5200,
+      "universal_access_target_2030": "65% on-grid, 35% off-grid",
+      "non_hydro_renewable_target": "15% of total generation",
+      "feed_in_tariff": {
+        "status": "Limited information available",
+        "current_mechanism": "Public-Private Partnership framework"
+      },
+      "incentives": [
+        "Extensive fiscal incentives for renewable energy investments",
+        "Non-fiscal incentives for renewable sector",
+        "Tax exemption on imported solar materials",
+        "Tax grace periods for renewable projects",
+        "Investment promotion by Petroleum and Energy Authority",
+        "Priority sector designation for renewables"
+      ],
+      "carbon_pricing": null,
+      "local_content_requirement": null,
+      "grid_connection_policy": "Grid expansion to support universal access goals",
+      "land_allocation": "Government support for renewable project land allocation",
+      "policy_framework": [
+        "Climate-Resilient Green Economy (CRGE) strategy",
+        "National Energy Policy",
+        "Ten-Year Development Plan",
+        "Energy Proclamation No. 810/2013",
+        "Public Private Partnership proclamation"
+      ],
+      "source_urls": [
+        "https://www.ena.et/web/eng/w/eng_4980247",
+        "https://iclg.com/practice-areas/renewable-energy-laws-and-regulations/ethiopia",
+        "https://africa-energy-portal.org/news/ethiopia-exploit-full-potential-solar-energy-accelerate-energy-transition"
+      ]
+    }
+  ],
+  "metadata": {
+    "collection_date": "2025-11-25",
+    "total_countries": 15,
+    "data_coverage": {
+      "renewable_targets": "15/15 countries",
+      "feed_in_tariffs": "15/15 countries (includes historic and current mechanisms)",
+      "incentives": "15/15 countries",
+      "carbon_pricing": "9/15 countries with active mechanisms",
+      "local_content_requirements": "Limited data - Morocco has explicit 30% requirement"
+    },
+    "notes": [
+      "Many countries are transitioning from feed-in tariffs to competitive auction systems",
+      "Carbon pricing mechanisms are predominantly voluntary carbon markets in developing countries",
+      "Local content requirements are not universally implemented or publicly documented",
+      "Tariff rates have generally declined over time due to technology cost reductions",
+      "Several countries have legally binding targets (Chile, Australia)",
+      "Grid connection and land allocation policies vary significantly by country"
+    ],
+    "data_quality": "Official government sources, international organizations (IEA, IRENA, World Bank), and verified trade authorities",
+    "currency_notes": "All monetary values converted to USD where possible; original currency included where relevant"
+  }
+}

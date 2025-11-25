@@ -1,0 +1,968 @@
+{
+  "metadata": {
+    "generated_date": "2025-11-25",
+    "total_companies": 30,
+    "sources": [
+      "Company official websites",
+      "Wikipedia",
+      "Industry publications",
+      "Bloomberg NEF (publicly available data)",
+      "IEA data sources"
+    ],
+    "categories": {
+      "developers": 16,
+      "epcs": 4,
+      "technology_providers": 10
+    }
+  },
+  "companies": [
+    {
+      "name": "ACWA Power",
+      "type": "Developer",
+      "headquarters": "Saudi Arabia",
+      "headquarters_city": "Riyadh",
+      "technologies": [
+        "Solar PV",
+        "Concentrated Solar Power (CSP)",
+        "Wind",
+        "Green Hydrogen",
+        "Desalination"
+      ],
+      "notable_projects": [
+        "NEOM Green Hydrogen Project (world's largest green hydrogen facility)",
+        "Sakaka IPP (300MW, Saudi Arabia's first major solar project)",
+        "Noor Solar Complex, Morocco (510 MW CSP + 135 MW PV)",
+        "Mohammed bin Rashid Solar Park"
+      ],
+      "regions": [
+        "Middle East",
+        "Africa",
+        "Asia"
+      ],
+      "capacity": "94 GW total installed capacity (52 GW renewable)",
+      "total_projects": "109 projects",
+      "employees": "5000+",
+      "website": "https://acwapower.com/",
+      "contact_info": {
+        "regional_offices": [
+          "Riyadh",
+          "Dubai",
+          "Cairo",
+          "Johannesburg",
+          "Istanbul"
+        ]
+      }
+    },
+    {
+      "name": "Masdar",
+      "type": "Developer",
+      "headquarters": "United Arab Emirates",
+      "headquarters_city": "Abu Dhabi",
+      "technologies": [
+        "Solar PV",
+        "Concentrated Solar Power (CSP)",
+        "Wind",
+        "Waste-to-Energy",
+        "Green Hydrogen"
+      ],
+      "notable_projects": [
+        "Al Dhafra Solar PV Project (Abu Dhabi)",
+        "Shams CSP Plant (one of world's largest)",
+        "London Array Offshore Wind Farm (joint venture)",
+        "Tafila Wind Farm (Jordan, first commercial utility-scale wind in Middle East)"
+      ],
+      "regions": [
+        "Middle East",
+        "Africa",
+        "Asia",
+        "Europe"
+      ],
+      "capacity": "51 GW+ across 40+ countries",
+      "founded": "2006",
+      "parent_company": "Mubadala Investment Company",
+      "website": "https://masdar.ae/",
+      "contact_info": {
+        "type": "State-owned",
+        "countries_active": "40+"
+      }
+    },
+    {
+      "name": "Scatec",
+      "type": "Developer",
+      "headquarters": "Norway",
+      "headquarters_city": "Oslo",
+      "technologies": [
+        "Solar PV",
+        "Wind",
+        "Hydropower",
+        "Battery Storage"
+      ],
+      "notable_projects": [
+        "Kenhardt Solar + Storage (540MW solar, 225MW/1,140MWh storage, South Africa)",
+        "Upington Solar (258MW, South Africa)",
+        "Mendubim PV Complex (453MW, Brazil)"
+      ],
+      "regions": [
+        "Africa",
+        "South America",
+        "Asia",
+        "Europe"
+      ],
+      "capacity": "3.3 GW in operation and under construction",
+      "employees": "450",
+      "countries_active": "14",
+      "acquisitions": "SN Power ($1.17 billion, 2020)",
+      "website": "https://www.scatec.com/",
+      "contact_info": {
+        "stock_exchange": "Oslo Stock Exchange"
+      }
+    },
+    {
+      "name": "Siemens Energy",
+      "type": "EPC/Technology Provider",
+      "headquarters": "Germany",
+      "headquarters_city": "Munich",
+      "technologies": [
+        "Wind Turbines (Siemens Gamesa)",
+        "Grid Solutions",
+        "Electrolyzers",
+        "Gas Turbines",
+        "Hydrogen Technology"
+      ],
+      "notable_projects": [
+        "Rumah 2 and Nairyah 2 Power Plants (Saudi Arabia, $1.6 billion)",
+        "Multiple offshore wind farms globally",
+        "Green hydrogen production facilities"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East",
+        "Asia",
+        "Americas"
+      ],
+      "market_position": "One-sixth of global electricity based on Siemens Energy technologies",
+      "subsidiaries": "Siemens Gamesa (wind)",
+      "website": "https://www.siemens-energy.com/",
+      "contact_info": {
+        "stock_exchange": "Frankfurt Stock Exchange"
+      }
+    },
+    {
+      "name": "ITM Power",
+      "type": "Technology Provider - Electrolyzer",
+      "headquarters": "United Kingdom",
+      "headquarters_city": "Sheffield",
+      "technologies": [
+        "PEM Electrolyzers",
+        "Green Hydrogen Production",
+        "TRIDENT Stack Platform"
+      ],
+      "notable_projects": [
+        "Linde/RWE Lingen Project (100 MW, Germany)",
+        "Stablegrid Projects (710 MW, Germany)",
+        "Shell Rhineland Refinery (largest in Europe)",
+        "Hydrogen Hub Agder (20 MW, Norway)",
+        "Yara Herøya (24 MW, Norway)"
+      ],
+      "regions": [
+        "Europe",
+        "Asia"
+      ],
+      "manufacturing_capacity": "1 GW per annum (world's largest electrolyzer factory)",
+      "products": [
+        "ALPHA 50 (50 MW)",
+        "NEPTUNE V (5 MW)"
+      ],
+      "website": "https://itm-power.com/",
+      "contact_info": {
+        "stock_exchange": "London Stock Exchange"
+      }
+    },
+    {
+      "name": "Nel Hydrogen",
+      "type": "Technology Provider - Electrolyzer",
+      "headquarters": "Norway",
+      "headquarters_city": "Oslo",
+      "technologies": [
+        "Alkaline Electrolyzers",
+        "PEM Electrolyzers",
+        "Hydrogen Storage Solutions"
+      ],
+      "notable_projects": [
+        "Kaupanes Hydrogen AS (20 MW, Norway)",
+        "HyFuel AS (20 MW, Norway)",
+        "Multiple maritime hydrogen projects"
+      ],
+      "regions": [
+        "Europe",
+        "North America",
+        "Asia"
+      ],
+      "manufacturing_capacity": "1 GW/year at Herøya facility (expandable to 4 GW)",
+      "founded": "1927",
+      "eu_funding": "€135 million from EU Innovation Fund",
+      "website": "https://nelhydrogen.com/",
+      "contact_info": {
+        "stock_exchange": "Oslo Stock Exchange"
+      }
+    },
+    {
+      "name": "Plug Power",
+      "type": "Technology Provider - Electrolyzer/Fuel Cell",
+      "headquarters": "United States",
+      "headquarters_city": "New York",
+      "technologies": [
+        "PEM Electrolyzers",
+        "Fuel Cells",
+        "Green Hydrogen Production",
+        "Liquid Hydrogen"
+      ],
+      "notable_projects": [
+        "Woodbine Plant, Georgia (15 tons/day, largest in US)",
+        "St. Gabriel Plant, Louisiana (joint venture with Olin)",
+        "Texas and New York facilities (in development)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "capacity": "Woodbine: 8x5 MW electrolyzers (largest deployment in US)",
+      "doe_funding": "$1.66 billion loan guarantee",
+      "electrolyzer_brand": "GenEco",
+      "website": "https://www.plugpower.com/",
+      "contact_info": {
+        "stock_exchange": "NASDAQ"
+      }
+    },
+    {
+      "name": "Vestas",
+      "type": "EPC/Technology Provider",
+      "headquarters": "Denmark",
+      "headquarters_city": "Aarhus",
+      "technologies": [
+        "Onshore Wind Turbines",
+        "Offshore Wind Turbines",
+        "EPC Services"
+      ],
+      "notable_projects": [
+        "Bjørnstrup Wind Park (27 MW, Denmark)",
+        "Thyborøn V236-15.0 MW (Denmark)",
+        "Numerous global wind farms"
+      ],
+      "regions": [
+        "Europe",
+        "Americas",
+        "Asia-Pacific"
+      ],
+      "employees": "29,000",
+      "founded": "1945",
+      "flagship_products": [
+        "V236-15.0 MW (offshore)",
+        "V174-9.5 MW",
+        "V136-4.5 MW"
+      ],
+      "manufacturing_locations": [
+        "Denmark",
+        "Germany",
+        "USA",
+        "India",
+        "China",
+        "Brazil"
+      ],
+      "website": "https://www.vestas.com/",
+      "contact_info": {
+        "stock_exchange": "Copenhagen Stock Exchange"
+      }
+    },
+    {
+      "name": "GE Vernova (formerly GE Renewable Energy)",
+      "type": "EPC/Technology Provider",
+      "headquarters": "United States",
+      "headquarters_city": "Cambridge, MA",
+      "technologies": [
+        "Onshore Wind",
+        "Offshore Wind",
+        "Solar PV",
+        "Hydro",
+        "Grid Solutions",
+        "Energy Storage"
+      ],
+      "notable_projects": [
+        "300 MW Wind Farm, India (full EPC)",
+        "27.2 MW Wind Project, Vietnam",
+        "Multiple global installations"
+      ],
+      "regions": [
+        "Global"
+      ],
+      "installed_capacity": "400+ GW globally",
+      "formed": "2024 (merger of GE Renewable Energy and GE Power)",
+      "website": "https://www.gevernova.com/",
+      "contact_info": {
+        "stock_exchange": "NYSE"
+      }
+    },
+    {
+      "name": "Ørsted",
+      "type": "Developer",
+      "headquarters": "Denmark",
+      "headquarters_city": "Fredericia",
+      "technologies": [
+        "Offshore Wind",
+        "Onshore Wind",
+        "Solar PV",
+        "Energy Storage"
+      ],
+      "notable_projects": [
+        "Vindeby (world's first offshore wind farm, 1991)",
+        "Multiple offshore wind farms in UK, Germany, Netherlands"
+      ],
+      "regions": [
+        "Europe",
+        "North America",
+        "Asia-Pacific"
+      ],
+      "capacity": "10.2 GW operating offshore wind (largest portfolio outside China)",
+      "under_construction": "8.1 GW",
+      "market_position": "World's leading offshore wind developer",
+      "transformation": "Divested from coal to become renewable-focused (since 2008)",
+      "website": "https://orsted.com/",
+      "contact_info": {
+        "stock_exchange": "Copenhagen Stock Exchange",
+        "ownership": "Partially state-owned"
+      }
+    },
+    {
+      "name": "Enel Green Power",
+      "type": "Developer",
+      "headquarters": "Italy",
+      "headquarters_city": "Rome",
+      "technologies": [
+        "Solar PV",
+        "Wind",
+        "Geothermal",
+        "Hydropower",
+        "Agrivoltaics"
+      ],
+      "notable_projects": [
+        "Trino Solar Plant (87 MW, Italy)",
+        "Tarquinia Agrivoltaics (170 MW, Italy)",
+        "Malvezzi Solar Park (crowdfunded project, Italy)"
+      ],
+      "regions": [
+        "Europe",
+        "Americas",
+        "Africa",
+        "Asia",
+        "Oceania"
+      ],
+      "capacity": "67.2 GW (3.4 GW storage)",
+      "annual_production": "74.5 TWh",
+      "total_plants": "1,300+ worldwide",
+      "founded": "2008",
+      "parent_company": "Enel S.p.A.",
+      "website": "https://www.enelgreenpower.com/",
+      "contact_info": {
+        "continents_active": "5"
+      }
+    },
+    {
+      "name": "Iberdrola",
+      "type": "Developer",
+      "headquarters": "Spain",
+      "headquarters_city": "Bilbao",
+      "technologies": [
+        "Onshore Wind",
+        "Offshore Wind",
+        "Solar PV",
+        "Hydropower",
+        "Battery Storage"
+      ],
+      "notable_projects": [
+        "BaCa Hybrid Wind-Solar Plant (143 MW, Spain - first hybrid)",
+        "Multiple offshore wind projects in partnership with DP Energy"
+      ],
+      "regions": [
+        "Europe",
+        "Americas"
+      ],
+      "capacity": "41.2 GW renewable energy (2023)",
+      "spain_capacity": "22.8 GW in Spain",
+      "market_capitalization": "€76 billion",
+      "customers": "100 million across 16 countries",
+      "website": "https://www.iberdrola.com/",
+      "contact_info": {
+        "stock_exchange": "Madrid Stock Exchange"
+      }
+    },
+    {
+      "name": "EDF Renewables",
+      "type": "Developer",
+      "headquarters": "France",
+      "headquarters_city": "Paris",
+      "technologies": [
+        "Offshore Wind",
+        "Onshore Wind",
+        "Solar PV",
+        "Energy Storage",
+        "Agrivoltaics"
+      ],
+      "notable_projects": [
+        "Provence Grand Large (first floating wind farm in France and Mediterranean)",
+        "France's first offshore wind farm (Saint-Nazaire)",
+        "Vitisolar Agrivoltaic demonstrator (Bordeaux)"
+      ],
+      "regions": [
+        "Europe",
+        "Americas",
+        "Africa",
+        "Asia-Pacific"
+      ],
+      "capacity": "12.5 GW globally (as of 2019)",
+      "countries_active": "22",
+      "parent_company": "EDF Group",
+      "website": "https://www.edf-renouvelables.com/",
+      "contact_info": {
+        "ownership": "Wholly owned by EDF"
+      }
+    },
+    {
+      "name": "Mainstream Renewable Power",
+      "type": "Developer",
+      "headquarters": "Ireland",
+      "headquarters_city": "Dublin",
+      "technologies": [
+        "Onshore Wind",
+        "Offshore Wind",
+        "Solar PV"
+      ],
+      "notable_projects": [
+        "Arklow Bank Offshore Wind (Ireland's first offshore wind)",
+        "Three offshore sites under development (Ireland)",
+        "Raragh Wind, Carrickeeny Wind, Knockaneden Wind (Ireland)"
+      ],
+      "regions": [
+        "Europe",
+        "Latin America",
+        "Africa",
+        "Asia-Pacific"
+      ],
+      "founded": "2008",
+      "founder": "Eddie O'Connor (former Airtricity chief)",
+      "jobs_planned": "100 new jobs in Dublin",
+      "website": "https://www.mainstreamrp.com/",
+      "contact_info": {
+        "focus": "40 years wind farm heritage"
+      }
+    },
+    {
+      "name": "NextEra Energy",
+      "type": "Developer",
+      "headquarters": "United States",
+      "headquarters_city": "Juno Beach, Florida",
+      "technologies": [
+        "Wind",
+        "Solar PV",
+        "Battery Storage",
+        "Nuclear"
+      ],
+      "notable_projects": [
+        "Traverse Wind Energy Center (998 MW, North America's largest single-phase)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "capacity": "33.4 GW net generating capacity",
+      "pipeline": "250 GW in development",
+      "market_position": "World's largest renewable energy generator",
+      "employees": "16,700",
+      "revenue": "$24.8 billion (2024)",
+      "subsidiaries": [
+        "Florida Power & Light",
+        "NextEra Energy Resources"
+      ],
+      "website": "https://www.nexteraenergy.com/",
+      "contact_info": {
+        "stock_exchange": "NYSE",
+        "customers_served": "12 million people"
+      }
+    },
+    {
+      "name": "Nordex",
+      "type": "Technology Provider",
+      "headquarters": "Germany",
+      "headquarters_city": "Hamburg",
+      "technologies": [
+        "Wind Turbines (4-7 MW class)",
+        "Nacelle Manufacturing"
+      ],
+      "notable_projects": [
+        "Multiple wind farms across Germany",
+        "Global wind turbine installations"
+      ],
+      "regions": [
+        "Europe",
+        "Americas",
+        "Asia"
+      ],
+      "employees": "3,100 in Germany",
+      "founded": "1985",
+      "manufacturing_locations": [
+        "Germany",
+        "Spain",
+        "Brazil",
+        "India",
+        "Mexico",
+        "Poland"
+      ],
+      "merger": "Merged with Acciona Windpower (2016)",
+      "website": "https://www.nordex-online.com/",
+      "contact_info": {
+        "stock_exchange": "Frankfurt Stock Exchange"
+      }
+    },
+    {
+      "name": "Suzlon Energy",
+      "type": "Technology Provider",
+      "headquarters": "India",
+      "headquarters_city": "Pune",
+      "technologies": [
+        "Wind Turbine Generators",
+        "Complete Wind Energy Solutions"
+      ],
+      "notable_projects": [
+        "Juniper Green Energy (402 MW, Rajasthan)",
+        "99+ wind farms across India"
+      ],
+      "regions": [
+        "Asia",
+        "Europe",
+        "Americas",
+        "Africa",
+        "Oceania"
+      ],
+      "capacity": "15.2 GW installed in India, 13.8 GW cumulative",
+      "founded": "1995",
+      "market_position": "No. 1 renewable energy player in India",
+      "countries_active": "18",
+      "rd_facilities": "8 R&D centers (Germany, India, Denmark, Netherlands)",
+      "website": "https://www.suzlon.com/",
+      "contact_info": {
+        "stock_exchange": "BSE, NSE (India)"
+      }
+    },
+    {
+      "name": "First Solar",
+      "type": "Technology Provider",
+      "headquarters": "United States",
+      "headquarters_city": "Tempe, Arizona",
+      "technologies": [
+        "CdTe Thin-Film Solar Modules",
+        "Solar PV Technology"
+      ],
+      "notable_projects": [
+        "Louisiana Manufacturing Facility ($1.1 billion, 3.5 GW)"
+      ],
+      "regions": [
+        "North America",
+        "Asia"
+      ],
+      "manufacturing_capacity": "14 GW US capacity by 2026",
+      "technology": "Cadmium Telluride (CdTe) thin-film (not silicon-based)",
+      "manufacturing_locations": [
+        "Ohio",
+        "Alabama",
+        "Louisiana (USA)",
+        "Malaysia",
+        "Vietnam",
+        "India"
+      ],
+      "innovation": "AI-powered production with computer vision",
+      "website": "https://www.firstsolar.com/",
+      "contact_info": {
+        "stock_exchange": "NASDAQ"
+      }
+    },
+    {
+      "name": "Canadian Solar",
+      "type": "Developer/Technology Provider",
+      "headquarters": "Canada",
+      "headquarters_city": "Kitchener, Ontario",
+      "technologies": [
+        "Solar PV Modules",
+        "Battery Energy Storage",
+        "Utility-Scale Solar Development"
+      ],
+      "notable_projects": [
+        "6.6 GWp developed globally since 2010",
+        "Projects in Canada, USA, China, Japan"
+      ],
+      "regions": [
+        "Americas",
+        "Asia",
+        "Europe"
+      ],
+      "module_deliveries": "55 GW+ to 150+ countries",
+      "founded": "2001",
+      "founder": "Dr. Shawn Qu",
+      "manufacturing_locations": [
+        "Canada",
+        "China",
+        "Brazil",
+        "Southeast Asia"
+      ],
+      "workforce_distribution": "79% in China, 3% in Canada",
+      "website": "https://www.canadiansolar.com/",
+      "contact_info": {
+        "stock_exchange": "NASDAQ"
+      }
+    },
+    {
+      "name": "BayWa r.e.",
+      "type": "Developer",
+      "headquarters": "Germany",
+      "headquarters_city": "Munich",
+      "technologies": [
+        "Solar PV",
+        "Wind",
+        "Battery Storage",
+        "Asset Operations",
+        "Energy Trading"
+      ],
+      "notable_projects": [
+        "625+ solar projects (1.6 GW)",
+        "100+ wind projects"
+      ],
+      "regions": [
+        "Europe",
+        "Americas",
+        "Asia-Pacific"
+      ],
+      "capacity": "5.5 GW commissioned, 10 GW under management",
+      "countries_active": "28",
+      "founded": "2009",
+      "website": "https://www.baywa-re.com/",
+      "contact_info": {
+        "business_model": "Developer and IPP"
+      }
+    },
+    {
+      "name": "Engie",
+      "type": "Developer",
+      "headquarters": "France",
+      "headquarters_city": "Paris",
+      "technologies": [
+        "Solar PV",
+        "Onshore Wind",
+        "Offshore Wind",
+        "Battery Storage",
+        "Green Gas"
+      ],
+      "notable_projects": [
+        "235 MW awarded in French tenders (2023)",
+        "500 renewable sites in France"
+      ],
+      "regions": [
+        "Europe",
+        "Americas",
+        "Middle East",
+        "Africa",
+        "Asia"
+      ],
+      "capacity": "46 GW renewable energy globally",
+      "countries_active": "31",
+      "storage_capacity": "5 GW operational or under construction",
+      "market_position": "Leading developer in France",
+      "website": "https://www.engie.com/",
+      "contact_info": {
+        "stock_exchange": "Euronext Paris"
+      }
+    },
+    {
+      "name": "Sungrow",
+      "type": "Technology Provider - Electrolyzer/Inverter",
+      "headquarters": "China",
+      "headquarters_city": "Hefei",
+      "technologies": [
+        "PEM Electrolyzers",
+        "Alkaline Electrolyzers",
+        "Solar Inverters",
+        "Energy Storage Systems"
+      ],
+      "notable_projects": [
+        "World's largest dual-tech green hydrogen plant (200 Nm³/h PEM + 1,000 Nm³/h alkaline)",
+        "Songyuan Hydrogen Energy Industrial Park ($4 billion, 640 MW)",
+        "Underground hydrogen storage in abandoned mines"
+      ],
+      "regions": [
+        "Asia",
+        "Global"
+      ],
+      "testing_capacity": "30 MW",
+      "operating_hours": "16,000+ hours",
+      "hydrogen_products": [
+        "300Nm³/h PEM electrolyzer",
+        "CE-PED certified ALK/PEM electrolyzers"
+      ],
+      "website": "https://www.sungrowpower.com/",
+      "contact_info": {
+        "certifications": "CE-PED, TÜV Rheinland"
+      }
+    },
+    {
+      "name": "Goldwind",
+      "type": "Technology Provider",
+      "headquarters": "China",
+      "headquarters_city": "Beijing",
+      "technologies": [
+        "Permanent Magnet Direct-Drive (PMDD) Wind Turbines",
+        "Medium Speed Permanent Magnet (MSPM) Wind Turbines"
+      ],
+      "notable_projects": [
+        "140 GW total installations (10 GW outside China)"
+      ],
+      "regions": [
+        "Asia",
+        "Global"
+      ],
+      "capacity": "18.7 GW installed in 2024",
+      "market_position": "World's largest wind turbine manufacturer",
+      "market_share": "15% global",
+      "countries_active": "38",
+      "flagship_product": "GWH300-22 MW offshore turbine (2024)",
+      "website": "https://www.goldwind.com/",
+      "contact_info": {
+        "stock_exchange": "Shenzhen Stock Exchange"
+      }
+    },
+    {
+      "name": "RES (Renewable Energy Systems)",
+      "type": "Developer/EPC",
+      "headquarters": "United Kingdom",
+      "headquarters_city": "Kings Langley",
+      "technologies": [
+        "Wind",
+        "Solar PV",
+        "Energy Storage",
+        "Green Hydrogen",
+        "Transmission & Distribution"
+      ],
+      "notable_projects": [
+        "28 GW delivered globally",
+        "45 GW operational assets supported"
+      ],
+      "regions": [
+        "Europe",
+        "Americas",
+        "Asia-Pacific"
+      ],
+      "founded": "1981",
+      "employees": "4,500",
+      "countries_active": "24",
+      "services": [
+        "Development",
+        "EPC",
+        "O&M",
+        "Asset Management"
+      ],
+      "sites_managed": "1,300+",
+      "market_position": "World's largest independent renewable energy company",
+      "website": "https://www.res-group.com/",
+      "contact_info": {
+        "ownership": "Independent"
+      }
+    },
+    {
+      "name": "Invenergy",
+      "type": "Developer",
+      "headquarters": "United States",
+      "headquarters_city": "Chicago, Illinois",
+      "technologies": [
+        "Wind",
+        "Solar PV",
+        "Battery Storage",
+        "Natural Gas",
+        "Green Hydrogen",
+        "Transmission"
+      ],
+      "notable_projects": [
+        "Traverse Wind Energy Center (998 MW, largest single-phase in North America)",
+        "200+ projects globally"
+      ],
+      "regions": [
+        "Americas",
+        "Europe",
+        "Asia"
+      ],
+      "capacity": "30.1 GW total (17.6 GW wind, 6.1 GW solar)",
+      "founded": "2001",
+      "founder": "Michael Polsky",
+      "market_position": "North America's largest privately held renewable developer",
+      "regional_offices": [
+        "USA",
+        "Canada",
+        "Mexico",
+        "Spain",
+        "Japan",
+        "Poland",
+        "Scotland"
+      ],
+      "website": "https://invenergy.com/",
+      "contact_info": {
+        "ownership": "Private"
+      }
+    },
+    {
+      "name": "Cummins (Accelera)",
+      "type": "Technology Provider - Electrolyzer/Fuel Cell",
+      "headquarters": "United States",
+      "headquarters_city": "Columbus, Indiana",
+      "technologies": [
+        "PEM Electrolyzers",
+        "Solid Oxide Electrolyzers (SOEC)",
+        "Fuel Cells",
+        "Battery Systems"
+      ],
+      "notable_projects": [
+        "Douglas County PUD (5 MW PEM, Washington - largest for US utility)",
+        "Fridley, Minnesota Manufacturing (500 MW capacity, expandable to 1 GW)"
+      ],
+      "regions": [
+        "North America",
+        "Europe"
+      ],
+      "electrolyzer_orders": "300 MW committed in North America",
+      "doe_funding": "$5 million for SOEC automation",
+      "fuel_cell_products": "150 kW and 300 kW modules",
+      "subsidiary": "Accelera by Cummins (hydrogen division)",
+      "manufacturing_locations": [
+        "Minnesota (USA)",
+        "Belgium",
+        "Canada"
+      ],
+      "website": "https://www.cummins.com/",
+      "contact_info": {
+        "stock_exchange": "NYSE"
+      }
+    },
+    {
+      "name": "Envision Energy",
+      "type": "Technology Provider",
+      "headquarters": "China",
+      "headquarters_city": "Shanghai",
+      "technologies": [
+        "Smart Wind Turbines",
+        "IoT Platform (EnOS)",
+        "Battery Storage",
+        "Energy Management Software"
+      ],
+      "notable_projects": [
+        "100 GW energy assets managed via EnOS platform"
+      ],
+      "regions": [
+        "Asia",
+        "Global"
+      ],
+      "capacity": "30+ GW installed worldwide",
+      "innovation": "Software-defined turbines with 15% efficiency increase",
+      "sensor_technology": "Hundreds of sensors per turbine",
+      "international_centers": [
+        "Osaka (battery R&D)",
+        "Houston (cloud services)",
+        "Silicon Valley (digital innovation)"
+      ],
+      "website": "https://www.envision-group.com/",
+      "contact_info": {
+        "market_position": "One of world's largest wind turbine manufacturers"
+      }
+    },
+    {
+      "name": "Adani Green Energy",
+      "type": "Developer",
+      "headquarters": "India",
+      "headquarters_city": "Ahmedabad",
+      "technologies": [
+        "Solar PV",
+        "Wind",
+        "Hybrid Wind-Solar",
+        "Battery Storage"
+      ],
+      "notable_projects": [
+        "Khavda RE Plant (30 GW - world's largest)",
+        "World's largest 2,140 MW wind-solar hybrid cluster",
+        "3.5 GWh battery storage project"
+      ],
+      "regions": [
+        "Asia"
+      ],
+      "capacity": "15 GW operational (as of June 2025)",
+      "target": "50 GW by 2030",
+      "market_position": "India's largest renewable energy company",
+      "website": "https://www.adanigreenenergy.com/",
+      "contact_info": {
+        "stock_exchange": "BSE, NSE (India)",
+        "parent_company": "Adani Group"
+      }
+    },
+    {
+      "name": "ReNew Power",
+      "type": "Developer",
+      "headquarters": "India",
+      "headquarters_city": "Gurugram",
+      "technologies": [
+        "Solar PV",
+        "Wind",
+        "Hydro",
+        "Hybrid Systems",
+        "Battery Storage"
+      ],
+      "notable_projects": [
+        "2.8 GW solar-wind-BESS hybrid plant (with ADB funding)",
+        "150+ utility-scale projects across 9 states"
+      ],
+      "regions": [
+        "Asia"
+      ],
+      "capacity": "10 GW commissioned, 18.5 GW total portfolio",
+      "founded": "2011",
+      "market_position": "10% of India's solar and wind generation, largest wind portfolio",
+      "homes_powered": "6 million",
+      "carbon_reduction": "0.5% of India's emissions",
+      "recognition": "First clean energy Lighthouse by World Economic Forum",
+      "website": "https://www.renew.com/",
+      "contact_info": {
+        "stock_exchange": "NASDAQ"
+      }
+    },
+    {
+      "name": "TotalEnergies",
+      "type": "Developer",
+      "headquarters": "France",
+      "headquarters_city": "Paris",
+      "technologies": [
+        "Offshore Wind",
+        "Onshore Wind",
+        "Solar PV",
+        "Battery Storage",
+        "Hydropower"
+      ],
+      "notable_projects": [
+        "Centre Manche 2 Offshore Wind (1.5 GW, France - largest renewable project)",
+        "660+ renewable facilities in France"
+      ],
+      "regions": [
+        "Europe",
+        "Americas",
+        "Middle East",
+        "Africa",
+        "Asia"
+      ],
+      "capacity": "2 GW in France, targeting 100 GW by 2030 globally",
+      "co2_avoidance": "800,000 tons annually in France",
+      "market_position": "Top 3 renewable energy developer in France",
+      "website": "https://totalenergies.com/",
+      "contact_info": {
+        "stock_exchange": "Euronext Paris"
+      }
+    }
+  ]
+}
